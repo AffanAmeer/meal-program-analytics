@@ -1,0 +1,10 @@
+step,detail,rows_affected
+load,read data/raw/volunteer_meal_data.csv,88
+validate,"unique dates, no missing numbers, made = served + waste, no impossible values",88
+add_calendar,"year, weekday, is_fri_to_sun, program_day, program_length",88
+flag_rainy,"rainy_note = notes mention 'rainy' (chef's label, check vs weather in Phase 2)",12
+flag_stockout,"stockout = notes say 'ran out early'; all have waste 0, no other day does",7
+flag_last10,last10 = final 10 program days of each year (from date position),30
+flag_censored_demand,demand_observed = meals_served; demand_is_floor = True on stockout days,7
+add_rates,"showup_rate, waste_rate, volunteer_shortfall (0 if enough showed)",88
+summary,"0 rows dropped, 0 raw values changed; columns only added",88
