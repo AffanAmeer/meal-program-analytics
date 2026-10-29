@@ -1,9 +1,6 @@
--- Phase 3, part 3: does weather move demand once we compare within segment?
--- Run:  duckdb meals.duckdb < sql/06_weather.sql   (needs v_analysis from 04)
--- Phase 2 tested rain. This adds temperature and uses the segment median as the baseline.
+-- run: duckdb meals.duckdb < sql/06_weather.sql   (needs v_analysis from 04)
 
--- 1. Each day's demand vs its segment's normal ("residual" = served - segment median).
---    CORR gives a correlation from -1 to 1. Near 0 = weather tells us nothing about demand.
+-- demand vs segment median, by temp and precip
 WITH seg_normal AS (
     SELECT segment, MEDIAN(meals_served) AS median_served
     FROM v_analysis
@@ -14,14 +11,14 @@ resid AS (
     SELECT a.*, a.meals_served - s.median_served AS vs_normal
     FROM v_analysis a
     JOIN seg_normal s USING (segment)
-    WHERE NOT a.stockout AND NOT a.rainy_note   -- surprise-slow days would swamp everything
+    WHERE NOT a.stockout AND NOT a.rainy_note   -- low-turnout days out, they'd swamp it
 )
 SELECT COUNT(*)                                   AS days,
        ROUND(CORR(vs_normal, temp_mean_c), 2)     AS corr_with_temp,
        ROUND(CORR(vs_normal, precip_mm), 2)       AS corr_with_precip
 FROM resid;
 
--- 2. Same idea in buckets, easier to explain than a correlation.
+-- same idea in temp buckets
 WITH seg_normal AS (
     SELECT segment, MEDIAN(meals_served) AS median_served
     FROM v_analysis
