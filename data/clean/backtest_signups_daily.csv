@@ -1,0 +1,237 @@
+plan,date,segment,rainy_note,volunteers_needed,signups,showed
+actual,2024-03-11,Mon-Thu,false,12,14.0,13.0
+actual,2024-03-12,Mon-Thu,false,12,16.0,15.0
+actual,2024-03-13,Mon-Thu,false,12,14.0,12.0
+actual,2024-03-14,Mon-Thu,false,12,16.0,15.0
+actual,2024-03-15,Fri-Sun,false,17,23.0,21.0
+actual,2024-03-16,Fri-Sun,false,17,23.0,21.0
+actual,2024-03-17,Fri-Sun,false,17,21.0,18.0
+actual,2024-03-18,Mon-Thu,false,12,16.0,13.0
+actual,2024-03-19,Mon-Thu,false,12,15.0,14.0
+actual,2024-03-20,Mon-Thu,false,12,15.0,13.0
+actual,2024-03-21,Mon-Thu,false,12,15.0,14.0
+actual,2024-03-22,Fri-Sun,false,17,23.0,18.0
+actual,2024-03-23,Fri-Sun,false,17,20.0,18.0
+actual,2024-03-24,Fri-Sun,false,17,22.0,21.0
+actual,2024-03-25,Mon-Thu,false,12,17.0,16.0
+actual,2024-03-26,Mon-Thu,false,12,14.0,13.0
+actual,2024-03-27,Mon-Thu,false,12,14.0,12.0
+actual,2024-03-28,Mon-Thu,false,12,14.0,12.0
+actual,2024-03-29,Fri-Sun,true,17,23.0,17.0
+actual,2024-03-30,Fri-Sun,false,17,22.0,19.0
+actual,2024-03-31,"Fri-Sun, last 10",false,17,21.0,19.0
+actual,2024-04-01,"Mon-Thu, last 10",false,12,17.0,16.0
+actual,2024-04-02,"Mon-Thu, last 10",true,12,14.0,9.0
+actual,2024-04-03,"Mon-Thu, last 10",false,12,15.0,13.0
+actual,2024-04-04,"Mon-Thu, last 10",false,12,14.0,12.0
+actual,2024-04-05,"Fri-Sun, last 10",false,17,20.0,19.0
+actual,2024-04-06,"Fri-Sun, last 10",false,17,20.0,16.0
+actual,2024-04-07,"Fri-Sun, last 10",true,17,22.0,16.0
+actual,2024-04-08,"Mon-Thu, last 10",false,12,16.0,14.0
+actual,2024-04-09,"Mon-Thu, last 10",true,12,14.0,10.0
+actual,2025-03-01,Fri-Sun,false,17,20.0,16.0
+actual,2025-03-02,Fri-Sun,false,17,20.0,19.0
+actual,2025-03-03,Mon-Thu,false,12,15.0,14.0
+actual,2025-03-04,Mon-Thu,false,12,15.0,14.0
+actual,2025-03-05,Mon-Thu,true,12,17.0,13.0
+actual,2025-03-06,Mon-Thu,false,12,15.0,13.0
+actual,2025-03-07,Fri-Sun,false,17,23.0,21.0
+actual,2025-03-08,Fri-Sun,false,17,21.0,18.0
+actual,2025-03-09,Fri-Sun,true,17,21.0,15.0
+actual,2025-03-10,Mon-Thu,false,12,14.0,11.0
+actual,2025-03-11,Mon-Thu,false,12,14.0,13.0
+actual,2025-03-12,Mon-Thu,false,12,17.0,15.0
+actual,2025-03-13,Mon-Thu,false,12,16.0,15.0
+actual,2025-03-14,Fri-Sun,false,17,21.0,18.0
+actual,2025-03-15,Fri-Sun,false,17,20.0,19.0
+actual,2025-03-16,Fri-Sun,false,17,23.0,20.0
+actual,2025-03-17,Mon-Thu,false,12,16.0,14.0
+actual,2025-03-18,Mon-Thu,false,12,14.0,13.0
+actual,2025-03-19,Mon-Thu,false,12,17.0,15.0
+actual,2025-03-20,"Mon-Thu, last 10",true,12,15.0,11.0
+actual,2025-03-21,"Fri-Sun, last 10",false,17,21.0,20.0
+actual,2025-03-22,"Fri-Sun, last 10",false,17,21.0,18.0
+actual,2025-03-23,"Fri-Sun, last 10",false,17,21.0,20.0
+actual,2025-03-24,"Mon-Thu, last 10",false,12,14.0,12.0
+actual,2025-03-25,"Mon-Thu, last 10",false,12,17.0,15.0
+actual,2025-03-26,"Mon-Thu, last 10",true,12,16.0,11.0
+actual,2025-03-27,"Mon-Thu, last 10",false,12,14.0,13.0
+actual,2025-03-28,"Fri-Sun, last 10",false,17,23.0,20.0
+actual,2025-03-29,"Fri-Sun, last 10",false,17,20.0,18.0
+fixed 16 / 23,2024-03-11,Mon-Thu,false,12,16.0,14.0
+fixed 16 / 23,2024-03-12,Mon-Thu,false,12,16.0,15.0
+fixed 16 / 23,2024-03-13,Mon-Thu,false,12,16.0,13.0
+fixed 16 / 23,2024-03-14,Mon-Thu,false,12,16.0,15.0
+fixed 16 / 23,2024-03-15,Fri-Sun,false,17,23.0,21.0
+fixed 16 / 23,2024-03-16,Fri-Sun,false,17,23.0,21.0
+fixed 16 / 23,2024-03-17,Fri-Sun,false,17,23.0,19.0
+fixed 16 / 23,2024-03-18,Mon-Thu,false,12,16.0,13.0
+fixed 16 / 23,2024-03-19,Mon-Thu,false,12,16.0,14.0
+fixed 16 / 23,2024-03-20,Mon-Thu,false,12,16.0,13.0
+fixed 16 / 23,2024-03-21,Mon-Thu,false,12,16.0,14.0
+fixed 16 / 23,2024-03-22,Fri-Sun,false,17,23.0,18.0
+fixed 16 / 23,2024-03-23,Fri-Sun,false,17,23.0,20.0
+fixed 16 / 23,2024-03-24,Fri-Sun,false,17,23.0,21.0
+fixed 16 / 23,2024-03-25,Mon-Thu,false,12,16.0,15.0
+fixed 16 / 23,2024-03-26,Mon-Thu,false,12,16.0,14.0
+fixed 16 / 23,2024-03-27,Mon-Thu,false,12,16.0,13.0
+fixed 16 / 23,2024-03-28,Mon-Thu,false,12,16.0,13.0
+fixed 16 / 23,2024-03-29,Fri-Sun,true,17,23.0,17.0
+fixed 16 / 23,2024-03-30,Fri-Sun,false,17,23.0,19.0
+fixed 16 / 23,2024-03-31,"Fri-Sun, last 10",false,17,23.0,20.0
+fixed 16 / 23,2024-04-01,"Mon-Thu, last 10",false,12,16.0,15.0
+fixed 16 / 23,2024-04-02,"Mon-Thu, last 10",true,12,16.0,10.0
+fixed 16 / 23,2024-04-03,"Mon-Thu, last 10",false,12,16.0,13.0
+fixed 16 / 23,2024-04-04,"Mon-Thu, last 10",false,12,16.0,13.0
+fixed 16 / 23,2024-04-05,"Fri-Sun, last 10",false,17,23.0,21.0
+fixed 16 / 23,2024-04-06,"Fri-Sun, last 10",false,17,23.0,18.0
+fixed 16 / 23,2024-04-07,"Fri-Sun, last 10",true,17,23.0,16.0
+fixed 16 / 23,2024-04-08,"Mon-Thu, last 10",false,12,16.0,14.0
+fixed 16 / 23,2024-04-09,"Mon-Thu, last 10",true,12,16.0,11.0
+fixed 16 / 23,2025-03-01,Fri-Sun,false,17,23.0,18.0
+fixed 16 / 23,2025-03-02,Fri-Sun,false,17,23.0,21.0
+fixed 16 / 23,2025-03-03,Mon-Thu,false,12,16.0,14.0
+fixed 16 / 23,2025-03-04,Mon-Thu,false,12,16.0,14.0
+fixed 16 / 23,2025-03-05,Mon-Thu,true,12,16.0,12.0
+fixed 16 / 23,2025-03-06,Mon-Thu,false,12,16.0,13.0
+fixed 16 / 23,2025-03-07,Fri-Sun,false,17,23.0,21.0
+fixed 16 / 23,2025-03-08,Fri-Sun,false,17,23.0,19.0
+fixed 16 / 23,2025-03-09,Fri-Sun,true,17,23.0,16.0
+fixed 16 / 23,2025-03-10,Mon-Thu,false,12,16.0,12.0
+fixed 16 / 23,2025-03-11,Mon-Thu,false,12,16.0,14.0
+fixed 16 / 23,2025-03-12,Mon-Thu,false,12,16.0,14.0
+fixed 16 / 23,2025-03-13,Mon-Thu,false,12,16.0,15.0
+fixed 16 / 23,2025-03-14,Fri-Sun,false,17,23.0,19.0
+fixed 16 / 23,2025-03-15,Fri-Sun,false,17,23.0,21.0
+fixed 16 / 23,2025-03-16,Fri-Sun,false,17,23.0,20.0
+fixed 16 / 23,2025-03-17,Mon-Thu,false,12,16.0,14.0
+fixed 16 / 23,2025-03-18,Mon-Thu,false,12,16.0,14.0
+fixed 16 / 23,2025-03-19,Mon-Thu,false,12,16.0,14.0
+fixed 16 / 23,2025-03-20,"Mon-Thu, last 10",true,12,16.0,11.0
+fixed 16 / 23,2025-03-21,"Fri-Sun, last 10",false,17,23.0,21.0
+fixed 16 / 23,2025-03-22,"Fri-Sun, last 10",false,17,23.0,19.0
+fixed 16 / 23,2025-03-23,"Fri-Sun, last 10",false,17,23.0,21.0
+fixed 16 / 23,2025-03-24,"Mon-Thu, last 10",false,12,16.0,13.0
+fixed 16 / 23,2025-03-25,"Mon-Thu, last 10",false,12,16.0,14.0
+fixed 16 / 23,2025-03-26,"Mon-Thu, last 10",true,12,16.0,11.0
+fixed 16 / 23,2025-03-27,"Mon-Thu, last 10",false,12,16.0,14.0
+fixed 16 / 23,2025-03-28,"Fri-Sun, last 10",false,17,23.0,20.0
+fixed 16 / 23,2025-03-29,"Fri-Sun, last 10",false,17,23.0,20.0
+p10 rule,2024-03-11,Mon-Thu,false,12,15.0,13.0
+p10 rule,2024-03-12,Mon-Thu,false,12,15.0,14.0
+p10 rule,2024-03-13,Mon-Thu,false,12,15.0,12.0
+p10 rule,2024-03-14,Mon-Thu,false,12,15.0,14.0
+p10 rule,2024-03-15,Fri-Sun,false,17,24.0,21.0
+p10 rule,2024-03-16,Fri-Sun,false,17,24.0,21.0
+p10 rule,2024-03-17,Fri-Sun,false,17,24.0,20.0
+p10 rule,2024-03-18,Mon-Thu,false,12,15.0,12.0
+p10 rule,2024-03-19,Mon-Thu,false,12,15.0,14.0
+p10 rule,2024-03-20,Mon-Thu,false,12,15.0,13.0
+p10 rule,2024-03-21,Mon-Thu,false,12,15.0,14.0
+p10 rule,2024-03-22,Fri-Sun,false,17,24.0,18.0
+p10 rule,2024-03-23,Fri-Sun,false,17,24.0,21.0
+p10 rule,2024-03-24,Fri-Sun,false,17,24.0,22.0
+p10 rule,2024-03-25,Mon-Thu,false,12,15.0,14.0
+p10 rule,2024-03-26,Mon-Thu,false,12,15.0,13.0
+p10 rule,2024-03-27,Mon-Thu,false,12,15.0,12.0
+p10 rule,2024-03-28,Mon-Thu,false,12,15.0,12.0
+p10 rule,2024-03-29,Fri-Sun,true,17,24.0,17.0
+p10 rule,2024-03-30,Fri-Sun,false,17,24.0,20.0
+p10 rule,2024-03-31,"Fri-Sun, last 10",false,17,24.0,21.0
+p10 rule,2024-04-01,"Mon-Thu, last 10",false,12,15.0,14.0
+p10 rule,2024-04-02,"Mon-Thu, last 10",true,12,15.0,9.0
+p10 rule,2024-04-03,"Mon-Thu, last 10",false,12,15.0,13.0
+p10 rule,2024-04-04,"Mon-Thu, last 10",false,12,15.0,12.0
+p10 rule,2024-04-05,"Fri-Sun, last 10",false,17,24.0,22.0
+p10 rule,2024-04-06,"Fri-Sun, last 10",false,17,24.0,19.0
+p10 rule,2024-04-07,"Fri-Sun, last 10",true,17,24.0,17.0
+p10 rule,2024-04-08,"Mon-Thu, last 10",false,12,15.0,13.0
+p10 rule,2024-04-09,"Mon-Thu, last 10",true,12,15.0,10.0
+p10 rule,2025-03-01,Fri-Sun,false,17,24.0,19.0
+p10 rule,2025-03-02,Fri-Sun,false,17,24.0,22.0
+p10 rule,2025-03-03,Mon-Thu,false,12,15.0,14.0
+p10 rule,2025-03-04,Mon-Thu,false,12,15.0,14.0
+p10 rule,2025-03-05,Mon-Thu,true,12,15.0,11.0
+p10 rule,2025-03-06,Mon-Thu,false,12,15.0,13.0
+p10 rule,2025-03-07,Fri-Sun,false,17,24.0,21.0
+p10 rule,2025-03-08,Fri-Sun,false,17,24.0,20.0
+p10 rule,2025-03-09,Fri-Sun,true,17,24.0,17.0
+p10 rule,2025-03-10,Mon-Thu,false,12,15.0,11.0
+p10 rule,2025-03-11,Mon-Thu,false,12,15.0,13.0
+p10 rule,2025-03-12,Mon-Thu,false,12,15.0,13.0
+p10 rule,2025-03-13,Mon-Thu,false,12,15.0,14.0
+p10 rule,2025-03-14,Fri-Sun,false,17,24.0,20.0
+p10 rule,2025-03-15,Fri-Sun,false,17,24.0,22.0
+p10 rule,2025-03-16,Fri-Sun,false,17,24.0,20.0
+p10 rule,2025-03-17,Mon-Thu,false,12,15.0,13.0
+p10 rule,2025-03-18,Mon-Thu,false,12,15.0,13.0
+p10 rule,2025-03-19,Mon-Thu,false,12,15.0,13.0
+p10 rule,2025-03-20,"Mon-Thu, last 10",true,12,15.0,11.0
+p10 rule,2025-03-21,"Fri-Sun, last 10",false,17,24.0,22.0
+p10 rule,2025-03-22,"Fri-Sun, last 10",false,17,24.0,20.0
+p10 rule,2025-03-23,"Fri-Sun, last 10",false,17,24.0,22.0
+p10 rule,2025-03-24,"Mon-Thu, last 10",false,12,15.0,12.0
+p10 rule,2025-03-25,"Mon-Thu, last 10",false,12,15.0,13.0
+p10 rule,2025-03-26,"Mon-Thu, last 10",true,12,15.0,10.0
+p10 rule,2025-03-27,"Mon-Thu, last 10",false,12,15.0,13.0
+p10 rule,2025-03-28,"Fri-Sun, last 10",false,17,24.0,20.0
+p10 rule,2025-03-29,"Fri-Sun, last 10",false,17,24.0,21.0
+p25 rule,2024-03-11,Mon-Thu,false,12,14.0,13.0
+p25 rule,2024-03-12,Mon-Thu,false,12,14.0,13.0
+p25 rule,2024-03-13,Mon-Thu,false,12,14.0,12.0
+p25 rule,2024-03-14,Mon-Thu,false,12,14.0,13.0
+p25 rule,2024-03-15,Fri-Sun,false,17,22.0,20.0
+p25 rule,2024-03-16,Fri-Sun,false,17,22.0,20.0
+p25 rule,2024-03-17,Fri-Sun,false,17,22.0,18.0
+p25 rule,2024-03-18,Mon-Thu,false,12,14.0,11.0
+p25 rule,2024-03-19,Mon-Thu,false,12,14.0,13.0
+p25 rule,2024-03-20,Mon-Thu,false,12,14.0,12.0
+p25 rule,2024-03-21,Mon-Thu,false,12,14.0,13.0
+p25 rule,2024-03-22,Fri-Sun,false,17,22.0,17.0
+p25 rule,2024-03-23,Fri-Sun,false,17,22.0,19.0
+p25 rule,2024-03-24,Fri-Sun,false,17,22.0,21.0
+p25 rule,2024-03-25,Mon-Thu,false,12,14.0,13.0
+p25 rule,2024-03-26,Mon-Thu,false,12,14.0,13.0
+p25 rule,2024-03-27,Mon-Thu,false,12,14.0,12.0
+p25 rule,2024-03-28,Mon-Thu,false,12,14.0,12.0
+p25 rule,2024-03-29,Fri-Sun,true,17,22.0,16.0
+p25 rule,2024-03-30,Fri-Sun,false,17,22.0,19.0
+p25 rule,2024-03-31,"Fri-Sun, last 10",false,17,22.0,19.0
+p25 rule,2024-04-01,"Mon-Thu, last 10",false,12,14.0,13.0
+p25 rule,2024-04-02,"Mon-Thu, last 10",true,12,14.0,9.0
+p25 rule,2024-04-03,"Mon-Thu, last 10",false,12,14.0,12.0
+p25 rule,2024-04-04,"Mon-Thu, last 10",false,12,14.0,12.0
+p25 rule,2024-04-05,"Fri-Sun, last 10",false,17,22.0,20.0
+p25 rule,2024-04-06,"Fri-Sun, last 10",false,17,22.0,17.0
+p25 rule,2024-04-07,"Fri-Sun, last 10",true,17,22.0,16.0
+p25 rule,2024-04-08,"Mon-Thu, last 10",false,12,14.0,12.0
+p25 rule,2024-04-09,"Mon-Thu, last 10",true,12,14.0,10.0
+p25 rule,2025-03-01,Fri-Sun,false,17,22.0,17.0
+p25 rule,2025-03-02,Fri-Sun,false,17,22.0,20.0
+p25 rule,2025-03-03,Mon-Thu,false,12,14.0,13.0
+p25 rule,2025-03-04,Mon-Thu,false,12,14.0,13.0
+p25 rule,2025-03-05,Mon-Thu,true,12,14.0,10.0
+p25 rule,2025-03-06,Mon-Thu,false,12,14.0,12.0
+p25 rule,2025-03-07,Fri-Sun,false,17,22.0,20.0
+p25 rule,2025-03-08,Fri-Sun,false,17,22.0,18.0
+p25 rule,2025-03-09,Fri-Sun,true,17,22.0,15.0
+p25 rule,2025-03-10,Mon-Thu,false,12,14.0,11.0
+p25 rule,2025-03-11,Mon-Thu,false,12,14.0,13.0
+p25 rule,2025-03-12,Mon-Thu,false,12,14.0,12.0
+p25 rule,2025-03-13,Mon-Thu,false,12,14.0,13.0
+p25 rule,2025-03-14,Fri-Sun,false,17,22.0,18.0
+p25 rule,2025-03-15,Fri-Sun,false,17,22.0,20.0
+p25 rule,2025-03-16,Fri-Sun,false,17,22.0,19.0
+p25 rule,2025-03-17,Mon-Thu,false,12,14.0,12.0
+p25 rule,2025-03-18,Mon-Thu,false,12,14.0,13.0
+p25 rule,2025-03-19,Mon-Thu,false,12,14.0,12.0
+p25 rule,2025-03-20,"Mon-Thu, last 10",true,12,14.0,10.0
+p25 rule,2025-03-21,"Fri-Sun, last 10",false,17,22.0,20.0
+p25 rule,2025-03-22,"Fri-Sun, last 10",false,17,22.0,18.0
+p25 rule,2025-03-23,"Fri-Sun, last 10",false,17,22.0,20.0
+p25 rule,2025-03-24,"Mon-Thu, last 10",false,12,14.0,12.0
+p25 rule,2025-03-25,"Mon-Thu, last 10",false,12,14.0,12.0
+p25 rule,2025-03-26,"Mon-Thu, last 10",true,12,14.0,9.0
+p25 rule,2025-03-27,"Mon-Thu, last 10",false,12,14.0,13.0
+p25 rule,2025-03-28,"Fri-Sun, last 10",false,17,22.0,19.0
+p25 rule,2025-03-29,"Fri-Sun, last 10",false,17,22.0,19.0

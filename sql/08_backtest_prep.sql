@@ -158,3 +158,6 @@ ORDER BY segment;
 
 -- 10. Save the trade-off table for the Tableau dashboard (Phase 5).
 COPY tradeoff TO 'data/clean/backtest_tradeoff.csv' (HEADER);
+
+-- 11. Save every plan's score on every test day, also for Tableau (Phase 5).
+COPY (SELECT * FROM scored ORDER BY plan, date) TO 'data/clean/backtest_daily.csv' (HEADER);

@@ -1,0 +1,89 @@
+date,year,weekday,program_day,days_left,segment,day_type,last10,day_status,meals_made,meals_served,leftover_waste,waste_rate,prep_target,volunteers_needed,volunteers_signed_up,volunteers_showed,showup_rate,volunteers_short
+2023-03-23,2023,Thursday,1,29,Mon-Thu,Mon-Thu,false,Ordinary day,860,830,30,0.035,810.0,12,15,14,0.933,false
+2023-03-24,2023,Friday,2,28,Fri-Sun,Fri-Sun,false,Ordinary day,1310,1141,169,0.129,1120.0,17,23,18,0.783,false
+2023-03-25,2023,Saturday,3,27,Fri-Sun,Fri-Sun,false,Ordinary day,1250,1092,158,0.126,1120.0,17,21,19,0.905,false
+2023-03-26,2023,Sunday,4,26,Fri-Sun,Fri-Sun,false,Ordinary day,1210,1067,143,0.118,1120.0,17,23,20,0.87,false
+2023-03-27,2023,Monday,5,25,Mon-Thu,Mon-Thu,false,Ordinary day,860,832,28,0.033,810.0,12,16,15,0.938,false
+2023-03-28,2023,Tuesday,6,24,Mon-Thu,Mon-Thu,false,Ordinary day,840,809,31,0.037,810.0,12,15,12,0.8,false
+2023-03-29,2023,Wednesday,7,23,Mon-Thu,Mon-Thu,false,Ordinary day,840,811,29,0.035,810.0,12,16,14,0.875,false
+2023-03-30,2023,Thursday,8,22,Mon-Thu,Mon-Thu,false,Ordinary day,760,724,36,0.047,810.0,12,15,13,0.867,false
+2023-03-31,2023,Friday,9,21,Fri-Sun,Fri-Sun,false,Low-turnout day,1180,808,372,0.315,1120.0,17,21,15,0.714,true
+2023-04-01,2023,Saturday,10,20,Fri-Sun,Fri-Sun,false,Low-turnout day,1130,767,363,0.321,1120.0,17,20,15,0.75,true
+2023-04-02,2023,Sunday,11,19,Fri-Sun,Fri-Sun,false,Ordinary day,1140,988,152,0.133,1120.0,17,23,22,0.957,false
+2023-04-03,2023,Monday,12,18,Mon-Thu,Mon-Thu,false,Ordinary day,750,723,27,0.036,810.0,12,17,14,0.824,false
+2023-04-04,2023,Tuesday,13,17,Mon-Thu,Mon-Thu,false,Ordinary day,790,753,37,0.047,810.0,12,16,14,0.875,false
+2023-04-05,2023,Wednesday,14,16,Mon-Thu,Mon-Thu,false,Ordinary day,750,723,27,0.036,810.0,12,15,14,0.933,false
+2023-04-06,2023,Thursday,15,15,Mon-Thu,Mon-Thu,false,Low-turnout day,770,580,190,0.247,810.0,12,15,10,0.667,true
+2023-04-07,2023,Friday,16,14,Fri-Sun,Fri-Sun,false,Low-turnout day,1200,817,383,0.319,1120.0,17,23,15,0.652,true
+2023-04-08,2023,Saturday,17,13,Fri-Sun,Fri-Sun,false,Ran out early,970,970,0,0.0,1120.0,17,22,19,0.864,false
+2023-04-09,2023,Sunday,18,12,Fri-Sun,Fri-Sun,false,Ran out early,980,980,0,0.0,1120.0,17,23,21,0.913,false
+2023-04-10,2023,Monday,19,11,Mon-Thu,Mon-Thu,false,Ordinary day,790,754,36,0.046,810.0,12,17,16,0.941,false
+2023-04-11,2023,Tuesday,20,10,"Mon-Thu, last 10",Mon-Thu,true,Ordinary day,970,944,26,0.027,970.0,12,16,14,0.875,false
+2023-04-12,2023,Wednesday,21,9,"Mon-Thu, last 10",Mon-Thu,true,Ordinary day,960,929,31,0.032,970.0,12,14,13,0.929,false
+2023-04-13,2023,Thursday,22,8,"Mon-Thu, last 10",Mon-Thu,true,Ordinary day,970,923,47,0.048,970.0,12,16,14,0.875,false
+2023-04-14,2023,Friday,23,7,"Fri-Sun, last 10",Fri-Sun,true,Ordinary day,1450,1251,199,0.137,1310.0,17,23,22,0.957,false
+2023-04-15,2023,Saturday,24,6,"Fri-Sun, last 10",Fri-Sun,true,Ordinary day,1380,1217,163,0.118,1310.0,17,21,19,0.905,false
+2023-04-16,2023,Sunday,25,5,"Fri-Sun, last 10",Fri-Sun,true,Ordinary day,1430,1251,179,0.125,1310.0,17,20,19,0.95,false
+2023-04-17,2023,Monday,26,4,"Mon-Thu, last 10",Mon-Thu,true,Ordinary day,900,868,32,0.036,970.0,12,14,13,0.929,false
+2023-04-18,2023,Tuesday,27,3,"Mon-Thu, last 10",Mon-Thu,true,Ordinary day,990,949,41,0.041,970.0,12,17,16,0.941,false
+2023-04-19,2023,Wednesday,28,2,"Mon-Thu, last 10",Mon-Thu,true,Ordinary day,930,891,39,0.042,970.0,12,16,15,0.938,false
+2023-04-20,2023,Thursday,29,1,"Mon-Thu, last 10",Mon-Thu,true,Ordinary day,1000,957,43,0.043,970.0,12,15,14,0.933,false
+2024-03-11,2024,Monday,1,30,Mon-Thu,Mon-Thu,false,Ordinary day,820,790,30,0.037,810.0,12,14,13,0.929,false
+2024-03-12,2024,Tuesday,2,29,Mon-Thu,Mon-Thu,false,Ran out early,710,710,0,0.0,810.0,12,16,15,0.938,false
+2024-03-13,2024,Wednesday,3,28,Mon-Thu,Mon-Thu,false,Ran out early,770,770,0,0.0,810.0,12,14,12,0.857,false
+2024-03-14,2024,Thursday,4,27,Mon-Thu,Mon-Thu,false,Ordinary day,830,800,30,0.036,810.0,12,16,15,0.938,false
+2024-03-15,2024,Friday,5,26,Fri-Sun,Fri-Sun,false,Ordinary day,1320,1162,158,0.12,1120.0,17,23,21,0.913,false
+2024-03-16,2024,Saturday,6,25,Fri-Sun,Fri-Sun,false,Ordinary day,1310,1144,166,0.127,1120.0,17,23,21,0.913,false
+2024-03-17,2024,Sunday,7,24,Fri-Sun,Fri-Sun,false,Ordinary day,1230,1089,141,0.115,1120.0,17,21,18,0.857,false
+2024-03-18,2024,Monday,8,23,Mon-Thu,Mon-Thu,false,Ordinary day,820,782,38,0.046,810.0,12,16,13,0.813,false
+2024-03-19,2024,Tuesday,9,22,Mon-Thu,Mon-Thu,false,Ordinary day,750,722,28,0.037,810.0,12,15,14,0.933,false
+2024-03-20,2024,Wednesday,10,21,Mon-Thu,Mon-Thu,false,Ordinary day,750,715,35,0.047,810.0,12,15,13,0.867,false
+2024-03-21,2024,Thursday,11,20,Mon-Thu,Mon-Thu,false,Ordinary day,780,754,26,0.033,810.0,12,15,14,0.933,false
+2024-03-22,2024,Friday,12,19,Fri-Sun,Fri-Sun,false,Ordinary day,1280,1112,168,0.131,1120.0,17,23,18,0.783,false
+2024-03-23,2024,Saturday,13,18,Fri-Sun,Fri-Sun,false,Ordinary day,1220,1066,154,0.126,1120.0,17,20,18,0.9,false
+2024-03-24,2024,Sunday,14,17,Fri-Sun,Fri-Sun,false,Ordinary day,1140,994,146,0.128,1120.0,17,22,21,0.955,false
+2024-03-25,2024,Monday,15,16,Mon-Thu,Mon-Thu,false,Ran out early,670,670,0,0.0,810.0,12,17,16,0.941,false
+2024-03-26,2024,Tuesday,16,15,Mon-Thu,Mon-Thu,false,Ordinary day,760,734,26,0.034,810.0,12,14,13,0.929,false
+2024-03-27,2024,Wednesday,17,14,Mon-Thu,Mon-Thu,false,Ordinary day,810,770,40,0.049,810.0,12,14,12,0.857,false
+2024-03-28,2024,Thursday,18,13,Mon-Thu,Mon-Thu,false,Ordinary day,790,760,30,0.038,810.0,12,14,12,0.857,false
+2024-03-29,2024,Friday,19,12,Fri-Sun,Fri-Sun,false,Low-turnout day,1240,835,405,0.327,1120.0,17,23,17,0.739,false
+2024-03-30,2024,Saturday,20,11,Fri-Sun,Fri-Sun,false,Ordinary day,1210,1048,162,0.134,1120.0,17,22,19,0.864,false
+2024-03-31,2024,Sunday,21,10,"Fri-Sun, last 10",Fri-Sun,true,Ordinary day,1400,1207,193,0.138,1310.0,17,21,19,0.905,false
+2024-04-01,2024,Monday,22,9,"Mon-Thu, last 10",Mon-Thu,true,Ordinary day,970,921,49,0.051,970.0,12,17,16,0.941,false
+2024-04-02,2024,Tuesday,23,8,"Mon-Thu, last 10",Mon-Thu,true,Low-turnout day,950,711,239,0.252,970.0,12,14,9,0.643,true
+2024-04-03,2024,Wednesday,24,7,"Mon-Thu, last 10",Mon-Thu,true,Ordinary day,990,947,43,0.043,970.0,12,15,13,0.867,false
+2024-04-04,2024,Thursday,25,6,"Mon-Thu, last 10",Mon-Thu,true,Ordinary day,950,909,41,0.043,970.0,12,14,12,0.857,false
+2024-04-05,2024,Friday,26,5,"Fri-Sun, last 10",Fri-Sun,true,Ordinary day,1460,1285,175,0.12,1310.0,17,20,19,0.95,false
+2024-04-06,2024,Saturday,27,4,"Fri-Sun, last 10",Fri-Sun,true,Ordinary day,1480,1290,190,0.128,1310.0,17,20,16,0.8,true
+2024-04-07,2024,Sunday,28,3,"Fri-Sun, last 10",Fri-Sun,true,Low-turnout day,1380,938,442,0.32,1310.0,17,22,16,0.727,true
+2024-04-08,2024,Monday,29,2,"Mon-Thu, last 10",Mon-Thu,true,Ordinary day,990,941,49,0.049,970.0,12,16,14,0.875,false
+2024-04-09,2024,Tuesday,30,1,"Mon-Thu, last 10",Mon-Thu,true,Low-turnout day,910,677,233,0.256,970.0,12,14,10,0.714,true
+2025-03-01,2025,Saturday,1,29,Fri-Sun,Fri-Sun,false,Ordinary day,1210,1056,154,0.127,1120.0,17,20,16,0.8,true
+2025-03-02,2025,Sunday,2,28,Fri-Sun,Fri-Sun,false,Ran out early,1060,1060,0,0.0,1120.0,17,20,19,0.95,false
+2025-03-03,2025,Monday,3,27,Mon-Thu,Mon-Thu,false,Ordinary day,860,817,43,0.05,810.0,12,15,14,0.933,false
+2025-03-04,2025,Tuesday,4,26,Mon-Thu,Mon-Thu,false,Ran out early,730,730,0,0.0,810.0,12,15,14,0.933,false
+2025-03-05,2025,Wednesday,5,25,Mon-Thu,Mon-Thu,false,Low-turnout day,840,629,211,0.251,810.0,12,17,13,0.765,false
+2025-03-06,2025,Thursday,6,24,Mon-Thu,Mon-Thu,false,Ordinary day,820,788,32,0.039,810.0,12,15,13,0.867,false
+2025-03-07,2025,Friday,7,23,Fri-Sun,Fri-Sun,false,Ordinary day,1370,1192,178,0.13,1120.0,17,23,21,0.913,false
+2025-03-08,2025,Saturday,8,22,Fri-Sun,Fri-Sun,false,Ordinary day,1200,1043,157,0.131,1120.0,17,21,18,0.857,false
+2025-03-09,2025,Sunday,9,21,Fri-Sun,Fri-Sun,false,Low-turnout day,1140,785,355,0.311,1120.0,17,21,15,0.714,true
+2025-03-10,2025,Monday,10,20,Mon-Thu,Mon-Thu,false,Ordinary day,780,749,31,0.04,810.0,12,14,11,0.786,true
+2025-03-11,2025,Tuesday,11,19,Mon-Thu,Mon-Thu,false,Ordinary day,800,773,27,0.034,810.0,12,14,13,0.929,false
+2025-03-12,2025,Wednesday,12,18,Mon-Thu,Mon-Thu,false,Ordinary day,820,781,39,0.048,810.0,12,17,15,0.882,false
+2025-03-13,2025,Thursday,13,17,Mon-Thu,Mon-Thu,false,Ordinary day,810,787,23,0.028,810.0,12,16,15,0.938,false
+2025-03-14,2025,Friday,14,16,Fri-Sun,Fri-Sun,false,Ordinary day,1240,1098,142,0.115,1120.0,17,21,18,0.857,false
+2025-03-15,2025,Saturday,15,15,Fri-Sun,Fri-Sun,false,Ordinary day,1150,996,154,0.134,1120.0,17,20,19,0.95,false
+2025-03-16,2025,Sunday,16,14,Fri-Sun,Fri-Sun,false,Ordinary day,1200,1049,151,0.126,1120.0,17,23,20,0.87,false
+2025-03-17,2025,Monday,17,13,Mon-Thu,Mon-Thu,false,Ordinary day,760,733,27,0.036,810.0,12,16,14,0.875,false
+2025-03-18,2025,Tuesday,18,12,Mon-Thu,Mon-Thu,false,Ordinary day,770,739,31,0.04,810.0,12,14,13,0.929,false
+2025-03-19,2025,Wednesday,19,11,Mon-Thu,Mon-Thu,false,Ordinary day,810,787,23,0.028,810.0,12,17,15,0.882,false
+2025-03-20,2025,Thursday,20,10,"Mon-Thu, last 10",Mon-Thu,true,Low-turnout day,920,691,229,0.249,970.0,12,15,11,0.733,true
+2025-03-21,2025,Friday,21,9,"Fri-Sun, last 10",Fri-Sun,true,Ordinary day,1480,1291,189,0.128,1310.0,17,21,20,0.952,false
+2025-03-22,2025,Saturday,22,8,"Fri-Sun, last 10",Fri-Sun,true,Ordinary day,1420,1247,173,0.122,1310.0,17,21,18,0.857,false
+2025-03-23,2025,Sunday,23,7,"Fri-Sun, last 10",Fri-Sun,true,Ordinary day,1500,1300,200,0.133,1310.0,17,21,20,0.952,false
+2025-03-24,2025,Monday,24,6,"Mon-Thu, last 10",Mon-Thu,true,Ordinary day,980,943,37,0.038,970.0,12,14,12,0.857,false
+2025-03-25,2025,Tuesday,25,5,"Mon-Thu, last 10",Mon-Thu,true,Ordinary day,950,910,40,0.042,970.0,12,17,15,0.882,false
+2025-03-26,2025,Wednesday,26,4,"Mon-Thu, last 10",Mon-Thu,true,Low-turnout day,940,708,232,0.247,970.0,12,16,11,0.688,true
+2025-03-27,2025,Thursday,27,3,"Mon-Thu, last 10",Mon-Thu,true,Ordinary day,900,877,23,0.026,970.0,12,14,13,0.929,false
+2025-03-28,2025,Friday,28,2,"Fri-Sun, last 10",Fri-Sun,true,Ordinary day,1450,1250,200,0.138,1310.0,17,23,20,0.87,false
+2025-03-29,2025,Saturday,29,1,"Fri-Sun, last 10",Fri-Sun,true,Ordinary day,1360,1200,160,0.118,1310.0,17,20,18,0.9,false

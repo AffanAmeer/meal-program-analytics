@@ -1,0 +1,9 @@
+plan,role,day_type,volunteers_needed,test_days,avg_signups,short_days,short_days_ordinary,people_short
+actual,Today,Fri-Sun,17,25,21.4,4,2,5.0
+actual,Today,Mon-Thu,12,34,15.2,5,1,8.0
+fixed 16 / 23,Other plans,Fri-Sun,17,25,23.0,2,0,2.0
+fixed 16 / 23,Other plans,Mon-Thu,12,34,16.0,4,0,5.0
+p10 rule,Recommended,Fri-Sun,17,25,24.0,0,0,0.0
+p10 rule,Recommended,Mon-Thu,12,34,15.0,6,1,10.0
+p25 rule,Other plans,Fri-Sun,17,25,22.0,3,0,4.0
+p25 rule,Other plans,Mon-Thu,12,34,14.0,7,2,14.0

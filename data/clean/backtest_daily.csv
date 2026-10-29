@@ -1,0 +1,473 @@
+plan,buffer_pct,date,year,segment,rainy_note,stockout,prep,chef_made,meals_served,waste,meals_short,ran_short
+chef (actual),,2024-03-11,2024,Mon-Thu,false,false,820.0,820,790,30.0,0.0,false
+chef (actual),,2024-03-12,2024,Mon-Thu,false,true,710.0,710,710,,,true
+chef (actual),,2024-03-13,2024,Mon-Thu,false,true,770.0,770,770,,,true
+chef (actual),,2024-03-14,2024,Mon-Thu,false,false,830.0,830,800,30.0,0.0,false
+chef (actual),,2024-03-15,2024,Fri-Sun,false,false,1320.0,1320,1162,158.0,0.0,false
+chef (actual),,2024-03-16,2024,Fri-Sun,false,false,1310.0,1310,1144,166.0,0.0,false
+chef (actual),,2024-03-17,2024,Fri-Sun,false,false,1230.0,1230,1089,141.0,0.0,false
+chef (actual),,2024-03-18,2024,Mon-Thu,false,false,820.0,820,782,38.0,0.0,false
+chef (actual),,2024-03-19,2024,Mon-Thu,false,false,750.0,750,722,28.0,0.0,false
+chef (actual),,2024-03-20,2024,Mon-Thu,false,false,750.0,750,715,35.0,0.0,false
+chef (actual),,2024-03-21,2024,Mon-Thu,false,false,780.0,780,754,26.0,0.0,false
+chef (actual),,2024-03-22,2024,Fri-Sun,false,false,1280.0,1280,1112,168.0,0.0,false
+chef (actual),,2024-03-23,2024,Fri-Sun,false,false,1220.0,1220,1066,154.0,0.0,false
+chef (actual),,2024-03-24,2024,Fri-Sun,false,false,1140.0,1140,994,146.0,0.0,false
+chef (actual),,2024-03-25,2024,Mon-Thu,false,true,670.0,670,670,,,true
+chef (actual),,2024-03-26,2024,Mon-Thu,false,false,760.0,760,734,26.0,0.0,false
+chef (actual),,2024-03-27,2024,Mon-Thu,false,false,810.0,810,770,40.0,0.0,false
+chef (actual),,2024-03-28,2024,Mon-Thu,false,false,790.0,790,760,30.0,0.0,false
+chef (actual),,2024-03-29,2024,Fri-Sun,true,false,1240.0,1240,835,405.0,0.0,false
+chef (actual),,2024-03-30,2024,Fri-Sun,false,false,1210.0,1210,1048,162.0,0.0,false
+chef (actual),,2024-03-31,2024,"Fri-Sun, last 10",false,false,1400.0,1400,1207,193.0,0.0,false
+chef (actual),,2024-04-01,2024,"Mon-Thu, last 10",false,false,970.0,970,921,49.0,0.0,false
+chef (actual),,2024-04-02,2024,"Mon-Thu, last 10",true,false,950.0,950,711,239.0,0.0,false
+chef (actual),,2024-04-03,2024,"Mon-Thu, last 10",false,false,990.0,990,947,43.0,0.0,false
+chef (actual),,2024-04-04,2024,"Mon-Thu, last 10",false,false,950.0,950,909,41.0,0.0,false
+chef (actual),,2024-04-05,2024,"Fri-Sun, last 10",false,false,1460.0,1460,1285,175.0,0.0,false
+chef (actual),,2024-04-06,2024,"Fri-Sun, last 10",false,false,1480.0,1480,1290,190.0,0.0,false
+chef (actual),,2024-04-07,2024,"Fri-Sun, last 10",true,false,1380.0,1380,938,442.0,0.0,false
+chef (actual),,2024-04-08,2024,"Mon-Thu, last 10",false,false,990.0,990,941,49.0,0.0,false
+chef (actual),,2024-04-09,2024,"Mon-Thu, last 10",true,false,910.0,910,677,233.0,0.0,false
+chef (actual),,2025-03-01,2025,Fri-Sun,false,false,1210.0,1210,1056,154.0,0.0,false
+chef (actual),,2025-03-02,2025,Fri-Sun,false,true,1060.0,1060,1060,,,true
+chef (actual),,2025-03-03,2025,Mon-Thu,false,false,860.0,860,817,43.0,0.0,false
+chef (actual),,2025-03-04,2025,Mon-Thu,false,true,730.0,730,730,,,true
+chef (actual),,2025-03-05,2025,Mon-Thu,true,false,840.0,840,629,211.0,0.0,false
+chef (actual),,2025-03-06,2025,Mon-Thu,false,false,820.0,820,788,32.0,0.0,false
+chef (actual),,2025-03-07,2025,Fri-Sun,false,false,1370.0,1370,1192,178.0,0.0,false
+chef (actual),,2025-03-08,2025,Fri-Sun,false,false,1200.0,1200,1043,157.0,0.0,false
+chef (actual),,2025-03-09,2025,Fri-Sun,true,false,1140.0,1140,785,355.0,0.0,false
+chef (actual),,2025-03-10,2025,Mon-Thu,false,false,780.0,780,749,31.0,0.0,false
+chef (actual),,2025-03-11,2025,Mon-Thu,false,false,800.0,800,773,27.0,0.0,false
+chef (actual),,2025-03-12,2025,Mon-Thu,false,false,820.0,820,781,39.0,0.0,false
+chef (actual),,2025-03-13,2025,Mon-Thu,false,false,810.0,810,787,23.0,0.0,false
+chef (actual),,2025-03-14,2025,Fri-Sun,false,false,1240.0,1240,1098,142.0,0.0,false
+chef (actual),,2025-03-15,2025,Fri-Sun,false,false,1150.0,1150,996,154.0,0.0,false
+chef (actual),,2025-03-16,2025,Fri-Sun,false,false,1200.0,1200,1049,151.0,0.0,false
+chef (actual),,2025-03-17,2025,Mon-Thu,false,false,760.0,760,733,27.0,0.0,false
+chef (actual),,2025-03-18,2025,Mon-Thu,false,false,770.0,770,739,31.0,0.0,false
+chef (actual),,2025-03-19,2025,Mon-Thu,false,false,810.0,810,787,23.0,0.0,false
+chef (actual),,2025-03-20,2025,"Mon-Thu, last 10",true,false,920.0,920,691,229.0,0.0,false
+chef (actual),,2025-03-21,2025,"Fri-Sun, last 10",false,false,1480.0,1480,1291,189.0,0.0,false
+chef (actual),,2025-03-22,2025,"Fri-Sun, last 10",false,false,1420.0,1420,1247,173.0,0.0,false
+chef (actual),,2025-03-23,2025,"Fri-Sun, last 10",false,false,1500.0,1500,1300,200.0,0.0,false
+chef (actual),,2025-03-24,2025,"Mon-Thu, last 10",false,false,980.0,980,943,37.0,0.0,false
+chef (actual),,2025-03-25,2025,"Mon-Thu, last 10",false,false,950.0,950,910,40.0,0.0,false
+chef (actual),,2025-03-26,2025,"Mon-Thu, last 10",true,false,940.0,940,708,232.0,0.0,false
+chef (actual),,2025-03-27,2025,"Mon-Thu, last 10",false,false,900.0,900,877,23.0,0.0,false
+chef (actual),,2025-03-28,2025,"Fri-Sun, last 10",false,false,1450.0,1450,1250,200.0,0.0,false
+chef (actual),,2025-03-29,2025,"Fri-Sun, last 10",false,false,1360.0,1360,1200,160.0,0.0,false
+median + 0%,0,2024-03-11,2024,Mon-Thu,false,false,750.0,820,790,0.0,40.0,true
+median + 0%,0,2024-03-12,2024,Mon-Thu,false,true,750.0,710,710,,,
+median + 0%,0,2024-03-13,2024,Mon-Thu,false,true,750.0,770,770,,,true
+median + 0%,0,2024-03-14,2024,Mon-Thu,false,false,750.0,830,800,0.0,50.0,true
+median + 0%,0,2024-03-15,2024,Fri-Sun,false,false,1080.0,1320,1162,0.0,82.0,true
+median + 0%,0,2024-03-16,2024,Fri-Sun,false,false,1080.0,1310,1144,0.0,64.0,true
+median + 0%,0,2024-03-17,2024,Fri-Sun,false,false,1080.0,1230,1089,0.0,9.0,true
+median + 0%,0,2024-03-18,2024,Mon-Thu,false,false,750.0,820,782,0.0,32.0,true
+median + 0%,0,2024-03-19,2024,Mon-Thu,false,false,750.0,750,722,28.0,0.0,false
+median + 0%,0,2024-03-20,2024,Mon-Thu,false,false,750.0,750,715,35.0,0.0,false
+median + 0%,0,2024-03-21,2024,Mon-Thu,false,false,750.0,780,754,0.0,4.0,true
+median + 0%,0,2024-03-22,2024,Fri-Sun,false,false,1080.0,1280,1112,0.0,32.0,true
+median + 0%,0,2024-03-23,2024,Fri-Sun,false,false,1080.0,1220,1066,14.0,0.0,false
+median + 0%,0,2024-03-24,2024,Fri-Sun,false,false,1080.0,1140,994,86.0,0.0,false
+median + 0%,0,2024-03-25,2024,Mon-Thu,false,true,750.0,670,670,,,
+median + 0%,0,2024-03-26,2024,Mon-Thu,false,false,750.0,760,734,16.0,0.0,false
+median + 0%,0,2024-03-27,2024,Mon-Thu,false,false,750.0,810,770,0.0,20.0,true
+median + 0%,0,2024-03-28,2024,Mon-Thu,false,false,750.0,790,760,0.0,10.0,true
+median + 0%,0,2024-03-29,2024,Fri-Sun,true,false,1080.0,1240,835,245.0,0.0,false
+median + 0%,0,2024-03-30,2024,Fri-Sun,false,false,1080.0,1210,1048,32.0,0.0,false
+median + 0%,0,2024-03-31,2024,"Fri-Sun, last 10",false,false,1250.0,1400,1207,43.0,0.0,false
+median + 0%,0,2024-04-01,2024,"Mon-Thu, last 10",false,false,930.0,970,921,9.0,0.0,false
+median + 0%,0,2024-04-02,2024,"Mon-Thu, last 10",true,false,930.0,950,711,219.0,0.0,false
+median + 0%,0,2024-04-03,2024,"Mon-Thu, last 10",false,false,930.0,990,947,0.0,17.0,true
+median + 0%,0,2024-04-04,2024,"Mon-Thu, last 10",false,false,930.0,950,909,21.0,0.0,false
+median + 0%,0,2024-04-05,2024,"Fri-Sun, last 10",false,false,1250.0,1460,1285,0.0,35.0,true
+median + 0%,0,2024-04-06,2024,"Fri-Sun, last 10",false,false,1250.0,1480,1290,0.0,40.0,true
+median + 0%,0,2024-04-07,2024,"Fri-Sun, last 10",true,false,1250.0,1380,938,312.0,0.0,false
+median + 0%,0,2024-04-08,2024,"Mon-Thu, last 10",false,false,930.0,990,941,0.0,11.0,true
+median + 0%,0,2024-04-09,2024,"Mon-Thu, last 10",true,false,930.0,910,677,253.0,0.0,false
+median + 0%,0,2025-03-01,2025,Fri-Sun,false,false,1090.0,1210,1056,34.0,0.0,false
+median + 0%,0,2025-03-02,2025,Fri-Sun,false,true,1090.0,1060,1060,,,
+median + 0%,0,2025-03-03,2025,Mon-Thu,false,false,760.0,860,817,0.0,57.0,true
+median + 0%,0,2025-03-04,2025,Mon-Thu,false,true,760.0,730,730,,,
+median + 0%,0,2025-03-05,2025,Mon-Thu,true,false,760.0,840,629,131.0,0.0,false
+median + 0%,0,2025-03-06,2025,Mon-Thu,false,false,760.0,820,788,0.0,28.0,true
+median + 0%,0,2025-03-07,2025,Fri-Sun,false,false,1090.0,1370,1192,0.0,102.0,true
+median + 0%,0,2025-03-08,2025,Fri-Sun,false,false,1090.0,1200,1043,47.0,0.0,false
+median + 0%,0,2025-03-09,2025,Fri-Sun,true,false,1090.0,1140,785,305.0,0.0,false
+median + 0%,0,2025-03-10,2025,Mon-Thu,false,false,760.0,780,749,11.0,0.0,false
+median + 0%,0,2025-03-11,2025,Mon-Thu,false,false,760.0,800,773,0.0,13.0,true
+median + 0%,0,2025-03-12,2025,Mon-Thu,false,false,760.0,820,781,0.0,21.0,true
+median + 0%,0,2025-03-13,2025,Mon-Thu,false,false,760.0,810,787,0.0,27.0,true
+median + 0%,0,2025-03-14,2025,Fri-Sun,false,false,1090.0,1240,1098,0.0,8.0,true
+median + 0%,0,2025-03-15,2025,Fri-Sun,false,false,1090.0,1150,996,94.0,0.0,false
+median + 0%,0,2025-03-16,2025,Fri-Sun,false,false,1090.0,1200,1049,41.0,0.0,false
+median + 0%,0,2025-03-17,2025,Mon-Thu,false,false,760.0,760,733,27.0,0.0,false
+median + 0%,0,2025-03-18,2025,Mon-Thu,false,false,760.0,770,739,21.0,0.0,false
+median + 0%,0,2025-03-19,2025,Mon-Thu,false,false,760.0,810,787,0.0,27.0,true
+median + 0%,0,2025-03-20,2025,"Mon-Thu, last 10",true,false,930.0,920,691,239.0,0.0,false
+median + 0%,0,2025-03-21,2025,"Fri-Sun, last 10",false,false,1250.0,1480,1291,0.0,41.0,true
+median + 0%,0,2025-03-22,2025,"Fri-Sun, last 10",false,false,1250.0,1420,1247,3.0,0.0,false
+median + 0%,0,2025-03-23,2025,"Fri-Sun, last 10",false,false,1250.0,1500,1300,0.0,50.0,true
+median + 0%,0,2025-03-24,2025,"Mon-Thu, last 10",false,false,930.0,980,943,0.0,13.0,true
+median + 0%,0,2025-03-25,2025,"Mon-Thu, last 10",false,false,930.0,950,910,20.0,0.0,false
+median + 0%,0,2025-03-26,2025,"Mon-Thu, last 10",true,false,930.0,940,708,222.0,0.0,false
+median + 0%,0,2025-03-27,2025,"Mon-Thu, last 10",false,false,930.0,900,877,53.0,0.0,false
+median + 0%,0,2025-03-28,2025,"Fri-Sun, last 10",false,false,1250.0,1450,1250,0.0,0.0,false
+median + 0%,0,2025-03-29,2025,"Fri-Sun, last 10",false,false,1250.0,1360,1200,50.0,0.0,false
+median + 10%,10,2024-03-11,2024,Mon-Thu,false,false,830.0,820,790,40.0,0.0,false
+median + 10%,10,2024-03-12,2024,Mon-Thu,false,true,830.0,710,710,,,
+median + 10%,10,2024-03-13,2024,Mon-Thu,false,true,830.0,770,770,,,
+median + 10%,10,2024-03-14,2024,Mon-Thu,false,false,830.0,830,800,30.0,0.0,false
+median + 10%,10,2024-03-15,2024,Fri-Sun,false,false,1190.0,1320,1162,28.0,0.0,false
+median + 10%,10,2024-03-16,2024,Fri-Sun,false,false,1190.0,1310,1144,46.0,0.0,false
+median + 10%,10,2024-03-17,2024,Fri-Sun,false,false,1190.0,1230,1089,101.0,0.0,false
+median + 10%,10,2024-03-18,2024,Mon-Thu,false,false,830.0,820,782,48.0,0.0,false
+median + 10%,10,2024-03-19,2024,Mon-Thu,false,false,830.0,750,722,108.0,0.0,false
+median + 10%,10,2024-03-20,2024,Mon-Thu,false,false,830.0,750,715,115.0,0.0,false
+median + 10%,10,2024-03-21,2024,Mon-Thu,false,false,830.0,780,754,76.0,0.0,false
+median + 10%,10,2024-03-22,2024,Fri-Sun,false,false,1190.0,1280,1112,78.0,0.0,false
+median + 10%,10,2024-03-23,2024,Fri-Sun,false,false,1190.0,1220,1066,124.0,0.0,false
+median + 10%,10,2024-03-24,2024,Fri-Sun,false,false,1190.0,1140,994,196.0,0.0,false
+median + 10%,10,2024-03-25,2024,Mon-Thu,false,true,830.0,670,670,,,
+median + 10%,10,2024-03-26,2024,Mon-Thu,false,false,830.0,760,734,96.0,0.0,false
+median + 10%,10,2024-03-27,2024,Mon-Thu,false,false,830.0,810,770,60.0,0.0,false
+median + 10%,10,2024-03-28,2024,Mon-Thu,false,false,830.0,790,760,70.0,0.0,false
+median + 10%,10,2024-03-29,2024,Fri-Sun,true,false,1190.0,1240,835,355.0,0.0,false
+median + 10%,10,2024-03-30,2024,Fri-Sun,false,false,1190.0,1210,1048,142.0,0.0,false
+median + 10%,10,2024-03-31,2024,"Fri-Sun, last 10",false,false,1380.0,1400,1207,173.0,0.0,false
+median + 10%,10,2024-04-01,2024,"Mon-Thu, last 10",false,false,1020.0,970,921,99.0,0.0,false
+median + 10%,10,2024-04-02,2024,"Mon-Thu, last 10",true,false,1020.0,950,711,309.0,0.0,false
+median + 10%,10,2024-04-03,2024,"Mon-Thu, last 10",false,false,1020.0,990,947,73.0,0.0,false
+median + 10%,10,2024-04-04,2024,"Mon-Thu, last 10",false,false,1020.0,950,909,111.0,0.0,false
+median + 10%,10,2024-04-05,2024,"Fri-Sun, last 10",false,false,1380.0,1460,1285,95.0,0.0,false
+median + 10%,10,2024-04-06,2024,"Fri-Sun, last 10",false,false,1380.0,1480,1290,90.0,0.0,false
+median + 10%,10,2024-04-07,2024,"Fri-Sun, last 10",true,false,1380.0,1380,938,442.0,0.0,false
+median + 10%,10,2024-04-08,2024,"Mon-Thu, last 10",false,false,1020.0,990,941,79.0,0.0,false
+median + 10%,10,2024-04-09,2024,"Mon-Thu, last 10",true,false,1020.0,910,677,343.0,0.0,false
+median + 10%,10,2025-03-01,2025,Fri-Sun,false,false,1200.0,1210,1056,144.0,0.0,false
+median + 10%,10,2025-03-02,2025,Fri-Sun,false,true,1200.0,1060,1060,,,
+median + 10%,10,2025-03-03,2025,Mon-Thu,false,false,830.0,860,817,13.0,0.0,false
+median + 10%,10,2025-03-04,2025,Mon-Thu,false,true,830.0,730,730,,,
+median + 10%,10,2025-03-05,2025,Mon-Thu,true,false,830.0,840,629,201.0,0.0,false
+median + 10%,10,2025-03-06,2025,Mon-Thu,false,false,830.0,820,788,42.0,0.0,false
+median + 10%,10,2025-03-07,2025,Fri-Sun,false,false,1200.0,1370,1192,8.0,0.0,false
+median + 10%,10,2025-03-08,2025,Fri-Sun,false,false,1200.0,1200,1043,157.0,0.0,false
+median + 10%,10,2025-03-09,2025,Fri-Sun,true,false,1200.0,1140,785,415.0,0.0,false
+median + 10%,10,2025-03-10,2025,Mon-Thu,false,false,830.0,780,749,81.0,0.0,false
+median + 10%,10,2025-03-11,2025,Mon-Thu,false,false,830.0,800,773,57.0,0.0,false
+median + 10%,10,2025-03-12,2025,Mon-Thu,false,false,830.0,820,781,49.0,0.0,false
+median + 10%,10,2025-03-13,2025,Mon-Thu,false,false,830.0,810,787,43.0,0.0,false
+median + 10%,10,2025-03-14,2025,Fri-Sun,false,false,1200.0,1240,1098,102.0,0.0,false
+median + 10%,10,2025-03-15,2025,Fri-Sun,false,false,1200.0,1150,996,204.0,0.0,false
+median + 10%,10,2025-03-16,2025,Fri-Sun,false,false,1200.0,1200,1049,151.0,0.0,false
+median + 10%,10,2025-03-17,2025,Mon-Thu,false,false,830.0,760,733,97.0,0.0,false
+median + 10%,10,2025-03-18,2025,Mon-Thu,false,false,830.0,770,739,91.0,0.0,false
+median + 10%,10,2025-03-19,2025,Mon-Thu,false,false,830.0,810,787,43.0,0.0,false
+median + 10%,10,2025-03-20,2025,"Mon-Thu, last 10",true,false,1020.0,920,691,329.0,0.0,false
+median + 10%,10,2025-03-21,2025,"Fri-Sun, last 10",false,false,1380.0,1480,1291,89.0,0.0,false
+median + 10%,10,2025-03-22,2025,"Fri-Sun, last 10",false,false,1380.0,1420,1247,133.0,0.0,false
+median + 10%,10,2025-03-23,2025,"Fri-Sun, last 10",false,false,1380.0,1500,1300,80.0,0.0,false
+median + 10%,10,2025-03-24,2025,"Mon-Thu, last 10",false,false,1020.0,980,943,77.0,0.0,false
+median + 10%,10,2025-03-25,2025,"Mon-Thu, last 10",false,false,1020.0,950,910,110.0,0.0,false
+median + 10%,10,2025-03-26,2025,"Mon-Thu, last 10",true,false,1020.0,940,708,312.0,0.0,false
+median + 10%,10,2025-03-27,2025,"Mon-Thu, last 10",false,false,1020.0,900,877,143.0,0.0,false
+median + 10%,10,2025-03-28,2025,"Fri-Sun, last 10",false,false,1380.0,1450,1250,130.0,0.0,false
+median + 10%,10,2025-03-29,2025,"Fri-Sun, last 10",false,false,1380.0,1360,1200,180.0,0.0,false
+median + 15%,15,2024-03-11,2024,Mon-Thu,false,false,870.0,820,790,80.0,0.0,false
+median + 15%,15,2024-03-12,2024,Mon-Thu,false,true,870.0,710,710,,,
+median + 15%,15,2024-03-13,2024,Mon-Thu,false,true,870.0,770,770,,,
+median + 15%,15,2024-03-14,2024,Mon-Thu,false,false,870.0,830,800,70.0,0.0,false
+median + 15%,15,2024-03-15,2024,Fri-Sun,false,false,1240.0,1320,1162,78.0,0.0,false
+median + 15%,15,2024-03-16,2024,Fri-Sun,false,false,1240.0,1310,1144,96.0,0.0,false
+median + 15%,15,2024-03-17,2024,Fri-Sun,false,false,1240.0,1230,1089,151.0,0.0,false
+median + 15%,15,2024-03-18,2024,Mon-Thu,false,false,870.0,820,782,88.0,0.0,false
+median + 15%,15,2024-03-19,2024,Mon-Thu,false,false,870.0,750,722,148.0,0.0,false
+median + 15%,15,2024-03-20,2024,Mon-Thu,false,false,870.0,750,715,155.0,0.0,false
+median + 15%,15,2024-03-21,2024,Mon-Thu,false,false,870.0,780,754,116.0,0.0,false
+median + 15%,15,2024-03-22,2024,Fri-Sun,false,false,1240.0,1280,1112,128.0,0.0,false
+median + 15%,15,2024-03-23,2024,Fri-Sun,false,false,1240.0,1220,1066,174.0,0.0,false
+median + 15%,15,2024-03-24,2024,Fri-Sun,false,false,1240.0,1140,994,246.0,0.0,false
+median + 15%,15,2024-03-25,2024,Mon-Thu,false,true,870.0,670,670,,,
+median + 15%,15,2024-03-26,2024,Mon-Thu,false,false,870.0,760,734,136.0,0.0,false
+median + 15%,15,2024-03-27,2024,Mon-Thu,false,false,870.0,810,770,100.0,0.0,false
+median + 15%,15,2024-03-28,2024,Mon-Thu,false,false,870.0,790,760,110.0,0.0,false
+median + 15%,15,2024-03-29,2024,Fri-Sun,true,false,1240.0,1240,835,405.0,0.0,false
+median + 15%,15,2024-03-30,2024,Fri-Sun,false,false,1240.0,1210,1048,192.0,0.0,false
+median + 15%,15,2024-03-31,2024,"Fri-Sun, last 10",false,false,1440.0,1400,1207,233.0,0.0,false
+median + 15%,15,2024-04-01,2024,"Mon-Thu, last 10",false,false,1070.0,970,921,149.0,0.0,false
+median + 15%,15,2024-04-02,2024,"Mon-Thu, last 10",true,false,1070.0,950,711,359.0,0.0,false
+median + 15%,15,2024-04-03,2024,"Mon-Thu, last 10",false,false,1070.0,990,947,123.0,0.0,false
+median + 15%,15,2024-04-04,2024,"Mon-Thu, last 10",false,false,1070.0,950,909,161.0,0.0,false
+median + 15%,15,2024-04-05,2024,"Fri-Sun, last 10",false,false,1440.0,1460,1285,155.0,0.0,false
+median + 15%,15,2024-04-06,2024,"Fri-Sun, last 10",false,false,1440.0,1480,1290,150.0,0.0,false
+median + 15%,15,2024-04-07,2024,"Fri-Sun, last 10",true,false,1440.0,1380,938,502.0,0.0,false
+median + 15%,15,2024-04-08,2024,"Mon-Thu, last 10",false,false,1070.0,990,941,129.0,0.0,false
+median + 15%,15,2024-04-09,2024,"Mon-Thu, last 10",true,false,1070.0,910,677,393.0,0.0,false
+median + 15%,15,2025-03-01,2025,Fri-Sun,false,false,1250.0,1210,1056,194.0,0.0,false
+median + 15%,15,2025-03-02,2025,Fri-Sun,false,true,1250.0,1060,1060,,,
+median + 15%,15,2025-03-03,2025,Mon-Thu,false,false,870.0,860,817,53.0,0.0,false
+median + 15%,15,2025-03-04,2025,Mon-Thu,false,true,870.0,730,730,,,
+median + 15%,15,2025-03-05,2025,Mon-Thu,true,false,870.0,840,629,241.0,0.0,false
+median + 15%,15,2025-03-06,2025,Mon-Thu,false,false,870.0,820,788,82.0,0.0,false
+median + 15%,15,2025-03-07,2025,Fri-Sun,false,false,1250.0,1370,1192,58.0,0.0,false
+median + 15%,15,2025-03-08,2025,Fri-Sun,false,false,1250.0,1200,1043,207.0,0.0,false
+median + 15%,15,2025-03-09,2025,Fri-Sun,true,false,1250.0,1140,785,465.0,0.0,false
+median + 15%,15,2025-03-10,2025,Mon-Thu,false,false,870.0,780,749,121.0,0.0,false
+median + 15%,15,2025-03-11,2025,Mon-Thu,false,false,870.0,800,773,97.0,0.0,false
+median + 15%,15,2025-03-12,2025,Mon-Thu,false,false,870.0,820,781,89.0,0.0,false
+median + 15%,15,2025-03-13,2025,Mon-Thu,false,false,870.0,810,787,83.0,0.0,false
+median + 15%,15,2025-03-14,2025,Fri-Sun,false,false,1250.0,1240,1098,152.0,0.0,false
+median + 15%,15,2025-03-15,2025,Fri-Sun,false,false,1250.0,1150,996,254.0,0.0,false
+median + 15%,15,2025-03-16,2025,Fri-Sun,false,false,1250.0,1200,1049,201.0,0.0,false
+median + 15%,15,2025-03-17,2025,Mon-Thu,false,false,870.0,760,733,137.0,0.0,false
+median + 15%,15,2025-03-18,2025,Mon-Thu,false,false,870.0,770,739,131.0,0.0,false
+median + 15%,15,2025-03-19,2025,Mon-Thu,false,false,870.0,810,787,83.0,0.0,false
+median + 15%,15,2025-03-20,2025,"Mon-Thu, last 10",true,false,1070.0,920,691,379.0,0.0,false
+median + 15%,15,2025-03-21,2025,"Fri-Sun, last 10",false,false,1440.0,1480,1291,149.0,0.0,false
+median + 15%,15,2025-03-22,2025,"Fri-Sun, last 10",false,false,1440.0,1420,1247,193.0,0.0,false
+median + 15%,15,2025-03-23,2025,"Fri-Sun, last 10",false,false,1440.0,1500,1300,140.0,0.0,false
+median + 15%,15,2025-03-24,2025,"Mon-Thu, last 10",false,false,1070.0,980,943,127.0,0.0,false
+median + 15%,15,2025-03-25,2025,"Mon-Thu, last 10",false,false,1070.0,950,910,160.0,0.0,false
+median + 15%,15,2025-03-26,2025,"Mon-Thu, last 10",true,false,1070.0,940,708,362.0,0.0,false
+median + 15%,15,2025-03-27,2025,"Mon-Thu, last 10",false,false,1070.0,900,877,193.0,0.0,false
+median + 15%,15,2025-03-28,2025,"Fri-Sun, last 10",false,false,1440.0,1450,1250,190.0,0.0,false
+median + 15%,15,2025-03-29,2025,"Fri-Sun, last 10",false,false,1440.0,1360,1200,240.0,0.0,false
+median + 3%,3,2024-03-11,2024,Mon-Thu,false,false,780.0,820,790,0.0,10.0,true
+median + 3%,3,2024-03-12,2024,Mon-Thu,false,true,780.0,710,710,,,
+median + 3%,3,2024-03-13,2024,Mon-Thu,false,true,780.0,770,770,,,
+median + 3%,3,2024-03-14,2024,Mon-Thu,false,false,780.0,830,800,0.0,20.0,true
+median + 3%,3,2024-03-15,2024,Fri-Sun,false,false,1110.0,1320,1162,0.0,52.0,true
+median + 3%,3,2024-03-16,2024,Fri-Sun,false,false,1110.0,1310,1144,0.0,34.0,true
+median + 3%,3,2024-03-17,2024,Fri-Sun,false,false,1110.0,1230,1089,21.0,0.0,false
+median + 3%,3,2024-03-18,2024,Mon-Thu,false,false,780.0,820,782,0.0,2.0,true
+median + 3%,3,2024-03-19,2024,Mon-Thu,false,false,780.0,750,722,58.0,0.0,false
+median + 3%,3,2024-03-20,2024,Mon-Thu,false,false,780.0,750,715,65.0,0.0,false
+median + 3%,3,2024-03-21,2024,Mon-Thu,false,false,780.0,780,754,26.0,0.0,false
+median + 3%,3,2024-03-22,2024,Fri-Sun,false,false,1110.0,1280,1112,0.0,2.0,true
+median + 3%,3,2024-03-23,2024,Fri-Sun,false,false,1110.0,1220,1066,44.0,0.0,false
+median + 3%,3,2024-03-24,2024,Fri-Sun,false,false,1110.0,1140,994,116.0,0.0,false
+median + 3%,3,2024-03-25,2024,Mon-Thu,false,true,780.0,670,670,,,
+median + 3%,3,2024-03-26,2024,Mon-Thu,false,false,780.0,760,734,46.0,0.0,false
+median + 3%,3,2024-03-27,2024,Mon-Thu,false,false,780.0,810,770,10.0,0.0,false
+median + 3%,3,2024-03-28,2024,Mon-Thu,false,false,780.0,790,760,20.0,0.0,false
+median + 3%,3,2024-03-29,2024,Fri-Sun,true,false,1110.0,1240,835,275.0,0.0,false
+median + 3%,3,2024-03-30,2024,Fri-Sun,false,false,1110.0,1210,1048,62.0,0.0,false
+median + 3%,3,2024-03-31,2024,"Fri-Sun, last 10",false,false,1290.0,1400,1207,83.0,0.0,false
+median + 3%,3,2024-04-01,2024,"Mon-Thu, last 10",false,false,960.0,970,921,39.0,0.0,false
+median + 3%,3,2024-04-02,2024,"Mon-Thu, last 10",true,false,960.0,950,711,249.0,0.0,false
+median + 3%,3,2024-04-03,2024,"Mon-Thu, last 10",false,false,960.0,990,947,13.0,0.0,false
+median + 3%,3,2024-04-04,2024,"Mon-Thu, last 10",false,false,960.0,950,909,51.0,0.0,false
+median + 3%,3,2024-04-05,2024,"Fri-Sun, last 10",false,false,1290.0,1460,1285,5.0,0.0,false
+median + 3%,3,2024-04-06,2024,"Fri-Sun, last 10",false,false,1290.0,1480,1290,0.0,0.0,false
+median + 3%,3,2024-04-07,2024,"Fri-Sun, last 10",true,false,1290.0,1380,938,352.0,0.0,false
+median + 3%,3,2024-04-08,2024,"Mon-Thu, last 10",false,false,960.0,990,941,19.0,0.0,false
+median + 3%,3,2024-04-09,2024,"Mon-Thu, last 10",true,false,960.0,910,677,283.0,0.0,false
+median + 3%,3,2025-03-01,2025,Fri-Sun,false,false,1120.0,1210,1056,64.0,0.0,false
+median + 3%,3,2025-03-02,2025,Fri-Sun,false,true,1120.0,1060,1060,,,
+median + 3%,3,2025-03-03,2025,Mon-Thu,false,false,780.0,860,817,0.0,37.0,true
+median + 3%,3,2025-03-04,2025,Mon-Thu,false,true,780.0,730,730,,,
+median + 3%,3,2025-03-05,2025,Mon-Thu,true,false,780.0,840,629,151.0,0.0,false
+median + 3%,3,2025-03-06,2025,Mon-Thu,false,false,780.0,820,788,0.0,8.0,true
+median + 3%,3,2025-03-07,2025,Fri-Sun,false,false,1120.0,1370,1192,0.0,72.0,true
+median + 3%,3,2025-03-08,2025,Fri-Sun,false,false,1120.0,1200,1043,77.0,0.0,false
+median + 3%,3,2025-03-09,2025,Fri-Sun,true,false,1120.0,1140,785,335.0,0.0,false
+median + 3%,3,2025-03-10,2025,Mon-Thu,false,false,780.0,780,749,31.0,0.0,false
+median + 3%,3,2025-03-11,2025,Mon-Thu,false,false,780.0,800,773,7.0,0.0,false
+median + 3%,3,2025-03-12,2025,Mon-Thu,false,false,780.0,820,781,0.0,1.0,true
+median + 3%,3,2025-03-13,2025,Mon-Thu,false,false,780.0,810,787,0.0,7.0,true
+median + 3%,3,2025-03-14,2025,Fri-Sun,false,false,1120.0,1240,1098,22.0,0.0,false
+median + 3%,3,2025-03-15,2025,Fri-Sun,false,false,1120.0,1150,996,124.0,0.0,false
+median + 3%,3,2025-03-16,2025,Fri-Sun,false,false,1120.0,1200,1049,71.0,0.0,false
+median + 3%,3,2025-03-17,2025,Mon-Thu,false,false,780.0,760,733,47.0,0.0,false
+median + 3%,3,2025-03-18,2025,Mon-Thu,false,false,780.0,770,739,41.0,0.0,false
+median + 3%,3,2025-03-19,2025,Mon-Thu,false,false,780.0,810,787,0.0,7.0,true
+median + 3%,3,2025-03-20,2025,"Mon-Thu, last 10",true,false,960.0,920,691,269.0,0.0,false
+median + 3%,3,2025-03-21,2025,"Fri-Sun, last 10",false,false,1290.0,1480,1291,0.0,1.0,true
+median + 3%,3,2025-03-22,2025,"Fri-Sun, last 10",false,false,1290.0,1420,1247,43.0,0.0,false
+median + 3%,3,2025-03-23,2025,"Fri-Sun, last 10",false,false,1290.0,1500,1300,0.0,10.0,true
+median + 3%,3,2025-03-24,2025,"Mon-Thu, last 10",false,false,960.0,980,943,17.0,0.0,false
+median + 3%,3,2025-03-25,2025,"Mon-Thu, last 10",false,false,960.0,950,910,50.0,0.0,false
+median + 3%,3,2025-03-26,2025,"Mon-Thu, last 10",true,false,960.0,940,708,252.0,0.0,false
+median + 3%,3,2025-03-27,2025,"Mon-Thu, last 10",false,false,960.0,900,877,83.0,0.0,false
+median + 3%,3,2025-03-28,2025,"Fri-Sun, last 10",false,false,1290.0,1450,1250,40.0,0.0,false
+median + 3%,3,2025-03-29,2025,"Fri-Sun, last 10",false,false,1290.0,1360,1200,90.0,0.0,false
+median + 5%,5,2024-03-11,2024,Mon-Thu,false,false,790.0,820,790,0.0,0.0,false
+median + 5%,5,2024-03-12,2024,Mon-Thu,false,true,790.0,710,710,,,
+median + 5%,5,2024-03-13,2024,Mon-Thu,false,true,790.0,770,770,,,
+median + 5%,5,2024-03-14,2024,Mon-Thu,false,false,790.0,830,800,0.0,10.0,true
+median + 5%,5,2024-03-15,2024,Fri-Sun,false,false,1130.0,1320,1162,0.0,32.0,true
+median + 5%,5,2024-03-16,2024,Fri-Sun,false,false,1130.0,1310,1144,0.0,14.0,true
+median + 5%,5,2024-03-17,2024,Fri-Sun,false,false,1130.0,1230,1089,41.0,0.0,false
+median + 5%,5,2024-03-18,2024,Mon-Thu,false,false,790.0,820,782,8.0,0.0,false
+median + 5%,5,2024-03-19,2024,Mon-Thu,false,false,790.0,750,722,68.0,0.0,false
+median + 5%,5,2024-03-20,2024,Mon-Thu,false,false,790.0,750,715,75.0,0.0,false
+median + 5%,5,2024-03-21,2024,Mon-Thu,false,false,790.0,780,754,36.0,0.0,false
+median + 5%,5,2024-03-22,2024,Fri-Sun,false,false,1130.0,1280,1112,18.0,0.0,false
+median + 5%,5,2024-03-23,2024,Fri-Sun,false,false,1130.0,1220,1066,64.0,0.0,false
+median + 5%,5,2024-03-24,2024,Fri-Sun,false,false,1130.0,1140,994,136.0,0.0,false
+median + 5%,5,2024-03-25,2024,Mon-Thu,false,true,790.0,670,670,,,
+median + 5%,5,2024-03-26,2024,Mon-Thu,false,false,790.0,760,734,56.0,0.0,false
+median + 5%,5,2024-03-27,2024,Mon-Thu,false,false,790.0,810,770,20.0,0.0,false
+median + 5%,5,2024-03-28,2024,Mon-Thu,false,false,790.0,790,760,30.0,0.0,false
+median + 5%,5,2024-03-29,2024,Fri-Sun,true,false,1130.0,1240,835,295.0,0.0,false
+median + 5%,5,2024-03-30,2024,Fri-Sun,false,false,1130.0,1210,1048,82.0,0.0,false
+median + 5%,5,2024-03-31,2024,"Fri-Sun, last 10",false,false,1310.0,1400,1207,103.0,0.0,false
+median + 5%,5,2024-04-01,2024,"Mon-Thu, last 10",false,false,980.0,970,921,59.0,0.0,false
+median + 5%,5,2024-04-02,2024,"Mon-Thu, last 10",true,false,980.0,950,711,269.0,0.0,false
+median + 5%,5,2024-04-03,2024,"Mon-Thu, last 10",false,false,980.0,990,947,33.0,0.0,false
+median + 5%,5,2024-04-04,2024,"Mon-Thu, last 10",false,false,980.0,950,909,71.0,0.0,false
+median + 5%,5,2024-04-05,2024,"Fri-Sun, last 10",false,false,1310.0,1460,1285,25.0,0.0,false
+median + 5%,5,2024-04-06,2024,"Fri-Sun, last 10",false,false,1310.0,1480,1290,20.0,0.0,false
+median + 5%,5,2024-04-07,2024,"Fri-Sun, last 10",true,false,1310.0,1380,938,372.0,0.0,false
+median + 5%,5,2024-04-08,2024,"Mon-Thu, last 10",false,false,980.0,990,941,39.0,0.0,false
+median + 5%,5,2024-04-09,2024,"Mon-Thu, last 10",true,false,980.0,910,677,303.0,0.0,false
+median + 5%,5,2025-03-01,2025,Fri-Sun,false,false,1140.0,1210,1056,84.0,0.0,false
+median + 5%,5,2025-03-02,2025,Fri-Sun,false,true,1140.0,1060,1060,,,
+median + 5%,5,2025-03-03,2025,Mon-Thu,false,false,790.0,860,817,0.0,27.0,true
+median + 5%,5,2025-03-04,2025,Mon-Thu,false,true,790.0,730,730,,,
+median + 5%,5,2025-03-05,2025,Mon-Thu,true,false,790.0,840,629,161.0,0.0,false
+median + 5%,5,2025-03-06,2025,Mon-Thu,false,false,790.0,820,788,2.0,0.0,false
+median + 5%,5,2025-03-07,2025,Fri-Sun,false,false,1140.0,1370,1192,0.0,52.0,true
+median + 5%,5,2025-03-08,2025,Fri-Sun,false,false,1140.0,1200,1043,97.0,0.0,false
+median + 5%,5,2025-03-09,2025,Fri-Sun,true,false,1140.0,1140,785,355.0,0.0,false
+median + 5%,5,2025-03-10,2025,Mon-Thu,false,false,790.0,780,749,41.0,0.0,false
+median + 5%,5,2025-03-11,2025,Mon-Thu,false,false,790.0,800,773,17.0,0.0,false
+median + 5%,5,2025-03-12,2025,Mon-Thu,false,false,790.0,820,781,9.0,0.0,false
+median + 5%,5,2025-03-13,2025,Mon-Thu,false,false,790.0,810,787,3.0,0.0,false
+median + 5%,5,2025-03-14,2025,Fri-Sun,false,false,1140.0,1240,1098,42.0,0.0,false
+median + 5%,5,2025-03-15,2025,Fri-Sun,false,false,1140.0,1150,996,144.0,0.0,false
+median + 5%,5,2025-03-16,2025,Fri-Sun,false,false,1140.0,1200,1049,91.0,0.0,false
+median + 5%,5,2025-03-17,2025,Mon-Thu,false,false,790.0,760,733,57.0,0.0,false
+median + 5%,5,2025-03-18,2025,Mon-Thu,false,false,790.0,770,739,51.0,0.0,false
+median + 5%,5,2025-03-19,2025,Mon-Thu,false,false,790.0,810,787,3.0,0.0,false
+median + 5%,5,2025-03-20,2025,"Mon-Thu, last 10",true,false,980.0,920,691,289.0,0.0,false
+median + 5%,5,2025-03-21,2025,"Fri-Sun, last 10",false,false,1310.0,1480,1291,19.0,0.0,false
+median + 5%,5,2025-03-22,2025,"Fri-Sun, last 10",false,false,1310.0,1420,1247,63.0,0.0,false
+median + 5%,5,2025-03-23,2025,"Fri-Sun, last 10",false,false,1310.0,1500,1300,10.0,0.0,false
+median + 5%,5,2025-03-24,2025,"Mon-Thu, last 10",false,false,980.0,980,943,37.0,0.0,false
+median + 5%,5,2025-03-25,2025,"Mon-Thu, last 10",false,false,980.0,950,910,70.0,0.0,false
+median + 5%,5,2025-03-26,2025,"Mon-Thu, last 10",true,false,980.0,940,708,272.0,0.0,false
+median + 5%,5,2025-03-27,2025,"Mon-Thu, last 10",false,false,980.0,900,877,103.0,0.0,false
+median + 5%,5,2025-03-28,2025,"Fri-Sun, last 10",false,false,1310.0,1450,1250,60.0,0.0,false
+median + 5%,5,2025-03-29,2025,"Fri-Sun, last 10",false,false,1310.0,1360,1200,110.0,0.0,false
+median + 8%,8,2024-03-11,2024,Mon-Thu,false,false,810.0,820,790,20.0,0.0,false
+median + 8%,8,2024-03-12,2024,Mon-Thu,false,true,810.0,710,710,,,
+median + 8%,8,2024-03-13,2024,Mon-Thu,false,true,810.0,770,770,,,
+median + 8%,8,2024-03-14,2024,Mon-Thu,false,false,810.0,830,800,10.0,0.0,false
+median + 8%,8,2024-03-15,2024,Fri-Sun,false,false,1170.0,1320,1162,8.0,0.0,false
+median + 8%,8,2024-03-16,2024,Fri-Sun,false,false,1170.0,1310,1144,26.0,0.0,false
+median + 8%,8,2024-03-17,2024,Fri-Sun,false,false,1170.0,1230,1089,81.0,0.0,false
+median + 8%,8,2024-03-18,2024,Mon-Thu,false,false,810.0,820,782,28.0,0.0,false
+median + 8%,8,2024-03-19,2024,Mon-Thu,false,false,810.0,750,722,88.0,0.0,false
+median + 8%,8,2024-03-20,2024,Mon-Thu,false,false,810.0,750,715,95.0,0.0,false
+median + 8%,8,2024-03-21,2024,Mon-Thu,false,false,810.0,780,754,56.0,0.0,false
+median + 8%,8,2024-03-22,2024,Fri-Sun,false,false,1170.0,1280,1112,58.0,0.0,false
+median + 8%,8,2024-03-23,2024,Fri-Sun,false,false,1170.0,1220,1066,104.0,0.0,false
+median + 8%,8,2024-03-24,2024,Fri-Sun,false,false,1170.0,1140,994,176.0,0.0,false
+median + 8%,8,2024-03-25,2024,Mon-Thu,false,true,810.0,670,670,,,
+median + 8%,8,2024-03-26,2024,Mon-Thu,false,false,810.0,760,734,76.0,0.0,false
+median + 8%,8,2024-03-27,2024,Mon-Thu,false,false,810.0,810,770,40.0,0.0,false
+median + 8%,8,2024-03-28,2024,Mon-Thu,false,false,810.0,790,760,50.0,0.0,false
+median + 8%,8,2024-03-29,2024,Fri-Sun,true,false,1170.0,1240,835,335.0,0.0,false
+median + 8%,8,2024-03-30,2024,Fri-Sun,false,false,1170.0,1210,1048,122.0,0.0,false
+median + 8%,8,2024-03-31,2024,"Fri-Sun, last 10",false,false,1350.0,1400,1207,143.0,0.0,false
+median + 8%,8,2024-04-01,2024,"Mon-Thu, last 10",false,false,1000.0,970,921,79.0,0.0,false
+median + 8%,8,2024-04-02,2024,"Mon-Thu, last 10",true,false,1000.0,950,711,289.0,0.0,false
+median + 8%,8,2024-04-03,2024,"Mon-Thu, last 10",false,false,1000.0,990,947,53.0,0.0,false
+median + 8%,8,2024-04-04,2024,"Mon-Thu, last 10",false,false,1000.0,950,909,91.0,0.0,false
+median + 8%,8,2024-04-05,2024,"Fri-Sun, last 10",false,false,1350.0,1460,1285,65.0,0.0,false
+median + 8%,8,2024-04-06,2024,"Fri-Sun, last 10",false,false,1350.0,1480,1290,60.0,0.0,false
+median + 8%,8,2024-04-07,2024,"Fri-Sun, last 10",true,false,1350.0,1380,938,412.0,0.0,false
+median + 8%,8,2024-04-08,2024,"Mon-Thu, last 10",false,false,1000.0,990,941,59.0,0.0,false
+median + 8%,8,2024-04-09,2024,"Mon-Thu, last 10",true,false,1000.0,910,677,323.0,0.0,false
+median + 8%,8,2025-03-01,2025,Fri-Sun,false,false,1180.0,1210,1056,124.0,0.0,false
+median + 8%,8,2025-03-02,2025,Fri-Sun,false,true,1180.0,1060,1060,,,
+median + 8%,8,2025-03-03,2025,Mon-Thu,false,false,820.0,860,817,3.0,0.0,false
+median + 8%,8,2025-03-04,2025,Mon-Thu,false,true,820.0,730,730,,,
+median + 8%,8,2025-03-05,2025,Mon-Thu,true,false,820.0,840,629,191.0,0.0,false
+median + 8%,8,2025-03-06,2025,Mon-Thu,false,false,820.0,820,788,32.0,0.0,false
+median + 8%,8,2025-03-07,2025,Fri-Sun,false,false,1180.0,1370,1192,0.0,12.0,true
+median + 8%,8,2025-03-08,2025,Fri-Sun,false,false,1180.0,1200,1043,137.0,0.0,false
+median + 8%,8,2025-03-09,2025,Fri-Sun,true,false,1180.0,1140,785,395.0,0.0,false
+median + 8%,8,2025-03-10,2025,Mon-Thu,false,false,820.0,780,749,71.0,0.0,false
+median + 8%,8,2025-03-11,2025,Mon-Thu,false,false,820.0,800,773,47.0,0.0,false
+median + 8%,8,2025-03-12,2025,Mon-Thu,false,false,820.0,820,781,39.0,0.0,false
+median + 8%,8,2025-03-13,2025,Mon-Thu,false,false,820.0,810,787,33.0,0.0,false
+median + 8%,8,2025-03-14,2025,Fri-Sun,false,false,1180.0,1240,1098,82.0,0.0,false
+median + 8%,8,2025-03-15,2025,Fri-Sun,false,false,1180.0,1150,996,184.0,0.0,false
+median + 8%,8,2025-03-16,2025,Fri-Sun,false,false,1180.0,1200,1049,131.0,0.0,false
+median + 8%,8,2025-03-17,2025,Mon-Thu,false,false,820.0,760,733,87.0,0.0,false
+median + 8%,8,2025-03-18,2025,Mon-Thu,false,false,820.0,770,739,81.0,0.0,false
+median + 8%,8,2025-03-19,2025,Mon-Thu,false,false,820.0,810,787,33.0,0.0,false
+median + 8%,8,2025-03-20,2025,"Mon-Thu, last 10",true,false,1000.0,920,691,309.0,0.0,false
+median + 8%,8,2025-03-21,2025,"Fri-Sun, last 10",false,false,1350.0,1480,1291,59.0,0.0,false
+median + 8%,8,2025-03-22,2025,"Fri-Sun, last 10",false,false,1350.0,1420,1247,103.0,0.0,false
+median + 8%,8,2025-03-23,2025,"Fri-Sun, last 10",false,false,1350.0,1500,1300,50.0,0.0,false
+median + 8%,8,2025-03-24,2025,"Mon-Thu, last 10",false,false,1000.0,980,943,57.0,0.0,false
+median + 8%,8,2025-03-25,2025,"Mon-Thu, last 10",false,false,1000.0,950,910,90.0,0.0,false
+median + 8%,8,2025-03-26,2025,"Mon-Thu, last 10",true,false,1000.0,940,708,292.0,0.0,false
+median + 8%,8,2025-03-27,2025,"Mon-Thu, last 10",false,false,1000.0,900,877,123.0,0.0,false
+median + 8%,8,2025-03-28,2025,"Fri-Sun, last 10",false,false,1350.0,1450,1250,100.0,0.0,false
+median + 8%,8,2025-03-29,2025,"Fri-Sun, last 10",false,false,1350.0,1360,1200,150.0,0.0,false
+p90 (Phase 3 draft),,2024-03-11,2024,Mon-Thu,false,false,830.0,820,790,40.0,0.0,false
+p90 (Phase 3 draft),,2024-03-12,2024,Mon-Thu,false,true,830.0,710,710,,,
+p90 (Phase 3 draft),,2024-03-13,2024,Mon-Thu,false,true,830.0,770,770,,,
+p90 (Phase 3 draft),,2024-03-14,2024,Mon-Thu,false,false,830.0,830,800,30.0,0.0,false
+p90 (Phase 3 draft),,2024-03-15,2024,Fri-Sun,false,false,1110.0,1320,1162,0.0,52.0,true
+p90 (Phase 3 draft),,2024-03-16,2024,Fri-Sun,false,false,1110.0,1310,1144,0.0,34.0,true
+p90 (Phase 3 draft),,2024-03-17,2024,Fri-Sun,false,false,1110.0,1230,1089,21.0,0.0,false
+p90 (Phase 3 draft),,2024-03-18,2024,Mon-Thu,false,false,830.0,820,782,48.0,0.0,false
+p90 (Phase 3 draft),,2024-03-19,2024,Mon-Thu,false,false,830.0,750,722,108.0,0.0,false
+p90 (Phase 3 draft),,2024-03-20,2024,Mon-Thu,false,false,830.0,750,715,115.0,0.0,false
+p90 (Phase 3 draft),,2024-03-21,2024,Mon-Thu,false,false,830.0,780,754,76.0,0.0,false
+p90 (Phase 3 draft),,2024-03-22,2024,Fri-Sun,false,false,1110.0,1280,1112,0.0,2.0,true
+p90 (Phase 3 draft),,2024-03-23,2024,Fri-Sun,false,false,1110.0,1220,1066,44.0,0.0,false
+p90 (Phase 3 draft),,2024-03-24,2024,Fri-Sun,false,false,1110.0,1140,994,116.0,0.0,false
+p90 (Phase 3 draft),,2024-03-25,2024,Mon-Thu,false,true,830.0,670,670,,,
+p90 (Phase 3 draft),,2024-03-26,2024,Mon-Thu,false,false,830.0,760,734,96.0,0.0,false
+p90 (Phase 3 draft),,2024-03-27,2024,Mon-Thu,false,false,830.0,810,770,60.0,0.0,false
+p90 (Phase 3 draft),,2024-03-28,2024,Mon-Thu,false,false,830.0,790,760,70.0,0.0,false
+p90 (Phase 3 draft),,2024-03-29,2024,Fri-Sun,true,false,1110.0,1240,835,275.0,0.0,false
+p90 (Phase 3 draft),,2024-03-30,2024,Fri-Sun,false,false,1110.0,1210,1048,62.0,0.0,false
+p90 (Phase 3 draft),,2024-03-31,2024,"Fri-Sun, last 10",false,false,1250.0,1400,1207,43.0,0.0,false
+p90 (Phase 3 draft),,2024-04-01,2024,"Mon-Thu, last 10",false,false,950.0,970,921,29.0,0.0,false
+p90 (Phase 3 draft),,2024-04-02,2024,"Mon-Thu, last 10",true,false,950.0,950,711,239.0,0.0,false
+p90 (Phase 3 draft),,2024-04-03,2024,"Mon-Thu, last 10",false,false,950.0,990,947,3.0,0.0,false
+p90 (Phase 3 draft),,2024-04-04,2024,"Mon-Thu, last 10",false,false,950.0,950,909,41.0,0.0,false
+p90 (Phase 3 draft),,2024-04-05,2024,"Fri-Sun, last 10",false,false,1250.0,1460,1285,0.0,35.0,true
+p90 (Phase 3 draft),,2024-04-06,2024,"Fri-Sun, last 10",false,false,1250.0,1480,1290,0.0,40.0,true
+p90 (Phase 3 draft),,2024-04-07,2024,"Fri-Sun, last 10",true,false,1250.0,1380,938,312.0,0.0,false
+p90 (Phase 3 draft),,2024-04-08,2024,"Mon-Thu, last 10",false,false,950.0,990,941,9.0,0.0,false
+p90 (Phase 3 draft),,2024-04-09,2024,"Mon-Thu, last 10",true,false,950.0,910,677,273.0,0.0,false
+p90 (Phase 3 draft),,2025-03-01,2025,Fri-Sun,false,false,1140.0,1210,1056,84.0,0.0,false
+p90 (Phase 3 draft),,2025-03-02,2025,Fri-Sun,false,true,1140.0,1060,1060,,,
+p90 (Phase 3 draft),,2025-03-03,2025,Mon-Thu,false,false,810.0,860,817,0.0,7.0,true
+p90 (Phase 3 draft),,2025-03-04,2025,Mon-Thu,false,true,810.0,730,730,,,
+p90 (Phase 3 draft),,2025-03-05,2025,Mon-Thu,true,false,810.0,840,629,181.0,0.0,false
+p90 (Phase 3 draft),,2025-03-06,2025,Mon-Thu,false,false,810.0,820,788,22.0,0.0,false
+p90 (Phase 3 draft),,2025-03-07,2025,Fri-Sun,false,false,1140.0,1370,1192,0.0,52.0,true
+p90 (Phase 3 draft),,2025-03-08,2025,Fri-Sun,false,false,1140.0,1200,1043,97.0,0.0,false
+p90 (Phase 3 draft),,2025-03-09,2025,Fri-Sun,true,false,1140.0,1140,785,355.0,0.0,false
+p90 (Phase 3 draft),,2025-03-10,2025,Mon-Thu,false,false,810.0,780,749,61.0,0.0,false
+p90 (Phase 3 draft),,2025-03-11,2025,Mon-Thu,false,false,810.0,800,773,37.0,0.0,false
+p90 (Phase 3 draft),,2025-03-12,2025,Mon-Thu,false,false,810.0,820,781,29.0,0.0,false
+p90 (Phase 3 draft),,2025-03-13,2025,Mon-Thu,false,false,810.0,810,787,23.0,0.0,false
+p90 (Phase 3 draft),,2025-03-14,2025,Fri-Sun,false,false,1140.0,1240,1098,42.0,0.0,false
+p90 (Phase 3 draft),,2025-03-15,2025,Fri-Sun,false,false,1140.0,1150,996,144.0,0.0,false
+p90 (Phase 3 draft),,2025-03-16,2025,Fri-Sun,false,false,1140.0,1200,1049,91.0,0.0,false
+p90 (Phase 3 draft),,2025-03-17,2025,Mon-Thu,false,false,810.0,760,733,77.0,0.0,false
+p90 (Phase 3 draft),,2025-03-18,2025,Mon-Thu,false,false,810.0,770,739,71.0,0.0,false
+p90 (Phase 3 draft),,2025-03-19,2025,Mon-Thu,false,false,810.0,810,787,23.0,0.0,false
+p90 (Phase 3 draft),,2025-03-20,2025,"Mon-Thu, last 10",true,false,950.0,920,691,259.0,0.0,false
+p90 (Phase 3 draft),,2025-03-21,2025,"Fri-Sun, last 10",false,false,1290.0,1480,1291,0.0,1.0,true
+p90 (Phase 3 draft),,2025-03-22,2025,"Fri-Sun, last 10",false,false,1290.0,1420,1247,43.0,0.0,false
+p90 (Phase 3 draft),,2025-03-23,2025,"Fri-Sun, last 10",false,false,1290.0,1500,1300,0.0,10.0,true
+p90 (Phase 3 draft),,2025-03-24,2025,"Mon-Thu, last 10",false,false,950.0,980,943,7.0,0.0,false
+p90 (Phase 3 draft),,2025-03-25,2025,"Mon-Thu, last 10",false,false,950.0,950,910,40.0,0.0,false
+p90 (Phase 3 draft),,2025-03-26,2025,"Mon-Thu, last 10",true,false,950.0,940,708,242.0,0.0,false
+p90 (Phase 3 draft),,2025-03-27,2025,"Mon-Thu, last 10",false,false,950.0,900,877,73.0,0.0,false
+p90 (Phase 3 draft),,2025-03-28,2025,"Fri-Sun, last 10",false,false,1290.0,1450,1250,40.0,0.0,false
+p90 (Phase 3 draft),,2025-03-29,2025,"Fri-Sun, last 10",false,false,1290.0,1360,1200,90.0,0.0,false

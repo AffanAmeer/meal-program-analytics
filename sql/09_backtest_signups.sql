@@ -69,3 +69,6 @@ SELECT volunteers_needed,
 FROM v_analysis
 GROUP BY volunteers_needed
 ORDER BY volunteers_needed;
+
+-- 5. Save every sign-up plan's result on every test day, for Tableau (Phase 5).
+COPY (SELECT * FROM signup_scored ORDER BY plan, date) TO 'data/clean/backtest_signups_daily.csv' (HEADER);
