@@ -1,23 +1,13 @@
--- Phase 3, part 1: how many meals are needed, where waste comes from, and why we ran out.
--- Run from the project folder AFTER 02_build_model.sql:
---     duckdb meals.duckdb < sql/04_demand_and_waste.sql
+-- run after 02_build_model.sql: duckdb meals.duckdb < sql/04_demand_and_waste.sql
 
--- 0. Analysis view: v_daily plus a "segment" label.
---    Phase 1 showed demand depends on day type (Mon-Thu vs Fri-Sun) and whether it is one
---    of the last 10 program days. Crossing the two gives 4 segments, each with 12-34 days.
---    That is as fine as 88 rows can support, so every comparison below is WITHIN a segment.
+-- segment = day type x last 10, all comparisons within segment
 CREATE OR REPLACE VIEW v_analysis AS
 SELECT *,
        CASE WHEN is_fri_to_sun THEN 'Fri-Sun' ELSE 'Mon-Thu' END
        || CASE WHEN last10 THEN ', last 10' ELSE '' END AS segment
 FROM v_daily;
 
--- 1. Demand per segment, stockout days LEFT OUT.
---    On the 7 stockout days meals_served = meals_made, so we only know demand was AT LEAST
---    that number (it is "censored"). Averaging them in would pull demand down, so we drop them
---    here and look at them separately in query 4.
---    median = the middle day, not dragged around by a few very slow days.
---    p90    = 9 in 10 days served this many meals or fewer.
+-- demand per segment, stockouts out (served is a floor there, would pull demand down)
 SELECT segment,
        COUNT(*)                                       AS days,
        ROUND(AVG(meals_made))                         AS avg_made,
@@ -32,8 +22,7 @@ WHERE NOT stockout
 GROUP BY segment
 ORDER BY segment;
 
--- 2. Where does the waste come from? All 88 days.
---    share_of_waste = this segment's waste as a % of all meals wasted.
+-- where waste comes from, all 88 days
 SELECT segment,
        COUNT(*)                                                     AS days,
        SUM(leftover_waste)                                          AS total_waste,
@@ -44,8 +33,7 @@ FROM v_analysis
 GROUP BY segment
 ORDER BY total_waste DESC;
 
--- 3. How much waste came from the 12 surprise low-turnout days (the chef's "rainy" note)?
---    Phase 2 showed the note is not real rain, so we call it a low-turnout day.
+-- waste from the 12 low-turnout days (rainy note is not real rain)
 SELECT CASE WHEN rainy_note THEN 'low-turnout note' ELSE 'other days' END AS day_kind,
        COUNT(*)                                                     AS days,
        SUM(leftover_waste)                                          AS total_waste,
@@ -54,9 +42,7 @@ SELECT CASE WHEN rainy_note THEN 'low-turnout note' ELSE 'other days' END AS day
 FROM v_analysis
 GROUP BY day_kind;
 
--- 3b. Waste on ORDINARY days only (no stockout, no low-turnout note).
---     This is over-prep the kitchen could have avoided with a better plan, since
---     nothing unusual happened on these days.
+-- waste on ordinary days only
 SELECT segment,
        COUNT(*)                                            AS days,
        ROUND(AVG(meals_made))                              AS avg_made,
@@ -68,9 +54,7 @@ WHERE NOT stockout AND NOT rainy_note
 GROUP BY segment
 ORDER BY segment;
 
--- 4. The 7 stockout days next to their segment's normal demand.
---    A CTE (WITH ...) computes each segment's median once, then we join it to each stockout day.
---    gap_vs_median < 0 means the kitchen cooked LESS than a normal day's demand.
+-- stockout days vs their segment median, gap < 0 = cooked below normal
 WITH seg_normal AS (
     SELECT segment, MEDIAN(meals_served) AS median_served
     FROM v_analysis
@@ -87,9 +71,7 @@ JOIN seg_normal s USING (segment)
 WHERE a.stockout
 ORDER BY a.date;
 
--- 5. Spread above normal: how far above the segment median did busy days go?
---    This is the raw material for the buffer in Phase 4.
---    "Upside" = served minus segment median, only on days that were above the median.
+-- spread above median, raw material for the phase 4 buffer
 WITH seg_normal AS (
     SELECT segment, MEDIAN(meals_served) AS median_served
     FROM v_analysis
