@@ -6,10 +6,10 @@
 
 | | Actually wet (>= 1 mm) | Actually dry |
 |---|---|---|
-| Chef said "rainy" | 4 | 8 |
+| Chef said rainy | 4 | 8 |
 | Chef said nothing | 20 | 56 |
 
-- Only **4 of the 12** "rainy" days were wet. **7 of the 12 had 0.0 mm.**
+- Only **4 of the 12** rainy days were wet. **7 of the 12 had 0.0 mm.**
 - The chef missed **20 of the 24** real wet days.
 
 ## Real rain barely changes turnout
