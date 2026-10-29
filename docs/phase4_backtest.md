@@ -5,15 +5,15 @@
 
 ## The question
 
-Phase 3 suggested cooking by segment instead of the chef's current amounts. A back-test asks: **if the kitchen had used that rule on past days, would it have wasted less without running out more often?**
+Phase 3 suggested cooking by segment instead of the chef's current amounts. A back-test is just asking, in plain terms: if the kitchen had actually used that rule on past days, would it have wasted less without running out more often?
 
 ## How the test works
 
 **The rule:** prep = normal demand for the segment + a buffer of X%, rounded to the nearest 10.
-- *Segment* = Mon-Thu or Fri-Sun, crossed with "last 10 program days" (4 segments, as in Phase 3).
+- *Segment* = Mon-Thu or Fri-Sun, crossed with "last 10 program days" (4 segments, same as in Phase 3).
 - *Normal demand* = the median meals served on past **ordinary** days (no stockout, no low-turnout note).
 
-**Why ordinary days only:** the plan is for a normal day. The low-turnout days can't be predicted (Phase 2-3), so letting them into the median pulls the forecast down and makes the kitchen run short on normal days. Stockout days are left out because their "served" number is only a floor. Both kinds of day are still scored in the test.
+**Why ordinary days only:** the plan is meant for a normal day. The low-turnout days can't be predicted (Phase 2-3), so if you let them into the median they pull the forecast down and the kitchen ends up running short on normal days. Stockout days are left out too, because their "served" number is only a floor, not real demand. Both kinds of day are still scored in the test, though.
 
 **Out-of-sample:** the rule only gets to see years *before* the one it's tested on, like a real kitchen planning ahead.
 - 2024 is tested with a rule built from 2023.
