@@ -1,7 +1,7 @@
 # Phase 1, step 2: build the clean table + a cleaning log.
 # Rule: the raw file is never edited. We read it, add columns, check it,
 # and write a NEW file. Every action goes into the log so anyone can audit it.
-# Fill in the two TODO blocks (stockout flag, last-10 flag), then run.
+# Run from the project folder:  python3 scripts/02_clean.py
 
 import pandas as pd
 
