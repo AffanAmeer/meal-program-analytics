@@ -23,13 +23,13 @@ Days without the chef's label, compared within day type:
 
 Wet days served about the same number of meals as dry days.
 
-## But the "rainy" days really were slow
+## But the rainy days really were slow
 
 The 12 labelled days served roughly 25-30% below their day-type normal (e.g. Fridays 808-835 vs a Fri-Sun average of ~1,125) and averaged 305 meals wasted vs 80. Something cut turnout on those days. It just was not rain.
 
 ## What this means
 
-- Read the note as **"low-turnout day (cause unknown)"**, not "rainy".
+- Read the note as **"low-turnout day (cause unknown)"**, not rainy.
 - A weather-based prep rule (cook less when rain is forecast) is **not supported** by this data.
 - These 12 days can't be predicted from a forecast, so the prep rule in Phase 4 needs a buffer that handles surprise low (and high) days, not a rain adjustment.
 
@@ -41,5 +41,5 @@ The 12 labelled days served roughly 25-30% below their day-type normal (e.g. Fri
 
 ## Questions for the program
 
-- What did the chef mean by "rainy"? Was the note written on the day or later?
+- What did the chef mean by rainy? Was the note written on the day or later?
 - Was anything else happening on those 12 days (events, cold, schedule changes)?
