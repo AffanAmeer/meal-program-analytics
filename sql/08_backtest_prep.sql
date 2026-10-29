@@ -1,26 +1,10 @@
--- Phase 4, part 1: back-test the meal prep rule against what the chef actually cooked.
--- Run from the project folder AFTER 04 (needs the v_analysis view):
---     duckdb meals.duckdb < sql/08_backtest_prep.sql
---
--- THE RULE:  prep = (normal demand for this segment) + (a buffer of X%)
---            "normal demand" = median meals served on past ORDINARY days in that segment
---                              (no stockout, no low-turnout note).
---
--- WHY ORDINARY DAYS ONLY: the plan is for a normal day. The low-turnout days can't be seen
--- coming (Phase 2/3), so letting them into the median drags the forecast down and makes the
--- kitchen run short on normal days. Stockout days are left out because their served number
--- is only a floor (censored). Both kinds of days are still SCORED in the test below.
---
--- WHY OUT-OF-SAMPLE: if we built the rule from all 3 years and then scored it on the same
--- 3 years, it would look better than it really is (it has already "seen the answers").
--- So we pretend to stand at the start of each year and only use the years before it:
---     test 2024 -> rule built from 2023 only
---     test 2025 -> rule built from 2023 + 2024
--- 2023 can't be tested (nothing before it). That leaves 59 test days.
+-- back-test prep rule vs chef
+-- run after 04: duckdb meals.duckdb < sql/08_backtest_prep.sql
+-- rule: prep = segment median on past ordinary days + buffer %, rounded to nearest 10
+-- out-of-sample: 2024 from 2023 only, 2025 from 2023+2024, 59 test days
+-- stockout days: prep <= chef = short for sure, prep > chef = unknown, not a win
 
--- 1. Training numbers: for each test year and segment, what did the EARLIER years look like?
---    FILTER (WHERE ...) lets one query compute the median on ordinary days and the
---    Phase 3 p90 (all non-stockout days, the way Phase 3 did it) side by side.
+-- training: earlier years only
 CREATE OR REPLACE TEMP TABLE train_stats AS
 SELECT t.test_year,
        a.segment,
@@ -33,7 +17,115 @@ JOIN v_analysis a
  AND NOT a.stockout
 GROUP BY ALL;
 
--- Look at what the rule learned. Note how few days some segments have when testing 2024.
+SELECT test_year, segment, train_days, ROUND(train_median) AS train_median, ROUND(train_p90) AS train_p90
+FROM train_stats
+ORDER BY test_year, segment;
+
+-- plans to compare
+CREATE OR REPLACE TEMP TABLE plans AS
+SELECT 'median + ' || b.buffer_pct || '%'          AS plan,
+       b.buffer_pct,
+       s.test_year, s.segment,
+       ROUND(s.train_median * (1 + b.buffer_pct / 100.0) / 10) * 10 AS prep
+FROM train_stats s
+CROSS JOIN (SELECT UNNEST([0, 3, 5, 8, 10, 15]) AS buffer_pct) b
+UNION ALL
+SELECT 'p90 (Phase 3 draft)', NULL, test_year, segment,
+       ROUND(train_p90 / 10) * 10
+FROM train_stats;
+
+-- score every plan on every test day
+CREATE OR REPLACE TEMP TABLE scored AS
+SELECT p.plan, p.buffer_pct, a.date, a.year, a.segment, a.rainy_note, a.stockout,
+       p.prep,
+       a.meals_made                                                   AS chef_made,
+       a.meals_served,
+       CASE WHEN NOT a.stockout THEN GREATEST(p.prep - a.meals_served, 0) END AS waste,
+       CASE WHEN NOT a.stockout THEN GREATEST(a.meals_served - p.prep, 0) END AS meals_short,
+       CASE WHEN NOT a.stockout THEN a.meals_served > p.prep
+            WHEN p.prep <= a.meals_made THEN TRUE
+            ELSE NULL END                                             AS ran_short   -- NULL = unknown
+FROM plans p
+JOIN v_analysis a
+  ON a.year = p.test_year AND a.segment = p.segment;
+
+-- chef on the same 59 test days, scored the same way
+INSERT INTO scored
+SELECT 'chef (actual)', NULL, date, year, segment, rainy_note, stockout,
+       meals_made, meals_made, meals_served,
+       CASE WHEN NOT stockout THEN leftover_waste END,
+       CASE WHEN NOT stockout THEN 0 END,
+       stockout
+FROM v_analysis
+WHERE year IN (2024, 2025);
+
+-- tradeoff table
+CREATE OR REPLACE TEMP TABLE tradeoff AS
+WITH chef AS (SELECT SUM(waste) AS chef_waste FROM scored WHERE plan = 'chef (actual)')
+SELECT plan, buffer_pct,
+       COUNT(*)                                                   AS test_days,
+       SUM(prep)                                                  AS meals_cooked,
+       SUM(waste)                                                 AS total_waste,
+       ROUND(100.0 * (SUM(waste) - ANY_VALUE(chef_waste)) / ANY_VALUE(chef_waste)) AS waste_vs_chef_pct,
+       SUM(CASE WHEN ran_short THEN 1 ELSE 0 END)                 AS short_days,
+       SUM(meals_short)                                           AS meals_short,
+       SUM(CASE WHEN ran_short IS NULL THEN 1 ELSE 0 END)         AS stockout_days_unknown
+FROM scored, chef
+GROUP BY plan, buffer_pct
+ORDER BY plan = 'chef (actual)' DESC, buffer_pct NULLS LAST;
+
+SELECT * FROM tradeoff;
+
+-- tradeoff, ordinary days only
+SELECT plan,
+       COUNT(*)                                       AS ordinary_days,
+       SUM(waste)                                     AS waste,
+       ROUND(AVG(waste))                              AS avg_waste_per_day,
+       SUM(CASE WHEN ran_short THEN 1 ELSE 0 END)     AS short_days,
+       SUM(meals_short)                               AS meals_short
+FROM scored
+WHERE NOT stockout AND NOT rainy_note
+GROUP BY plan, buffer_pct
+ORDER BY plan = 'chef (actual)' DESC, buffer_pct NULLS LAST;
+
+-- median + 5% by segment vs chef
+SELECT segment, plan,
+       COUNT(*)                                       AS days,
+       ROUND(AVG(prep))                               AS avg_prep,
+       SUM(waste)                                     AS waste,
+       SUM(CASE WHEN ran_short THEN 1 ELSE 0 END)     AS short_days,
+       SUM(meals_short)                               AS meals_short,
+       SUM(CASE WHEN ran_short IS NULL THEN 1 ELSE 0 END) AS unknown_days
+FROM scored
+WHERE plan IN ('chef (actual)', 'median + 5%')
+GROUP BY ALL
+ORDER BY segment, plan;
+
+-- stockout days in test years: would +5% have cooked more?
+SELECT s.date, s.segment,
+       s.chef_made                AS chef_made_and_ran_out,
+       s.prep                     AS plan_prep,
+       s.prep - s.chef_made       AS extra_meals_from_plan
+FROM scored s
+WHERE s.plan = 'median + 5%' AND s.stockout
+ORDER BY s.date;
+
+-- prep targets for next program, all 3 years ordinary days
+SELECT segment,
+       COUNT(*)                                            AS days_used,
+       ROUND(MEDIAN(meals_served))                         AS normal_demand,
+       ROUND(MEDIAN(meals_served) * 1.05 / 10) * 10        AS prep_plus_5pct,
+       ROUND(MEDIAN(meals_served) * 1.08 / 10) * 10        AS prep_plus_8pct
+FROM v_analysis
+WHERE NOT stockout AND NOT rainy_note
+GROUP BY segment
+ORDER BY segment;
+
+-- save tradeoff for tableau
+COPY tradeoff TO 'data/clean/backtest_tradeoff.csv' (HEADER);
+
+-- save daily scores for tableau
+COPY (SELECT * FROM scored ORDER BY plan, date) TO 'data/clean/backtest_daily.csv' (HEADER);
 SELECT test_year, segment, train_days, ROUND(train_median) AS train_median, ROUND(train_p90) AS train_p90
 FROM train_stats
 ORDER BY test_year, segment;
