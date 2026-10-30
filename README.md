@@ -3,7 +3,8 @@
 **Turning three years of meal records into cooking and volunteer targets a kitchen can actually use.**
 
 **Live dashboard:** [Meal Program Planning on Tableau Public](https://public.tableau.com/app/profile/affan.ameer/viz/MealProgramPlanning/Dashboard1)  
-**Decision memo:** [docs/decision_memo.md](docs/decision_memo.md)
+**Decision memo:** [docs/decision_memo.md](docs/decision_memo.md)  
+**Real-world test plan:** [docs/phase7_test_plan.md](docs/phase7_test_plan.md)
 
 ## Overview
 
@@ -27,7 +28,7 @@ Over 59 days in 2024 and 2025, the 5% rule would have cut waste by 34%, from 6,6
 
 The volunteer rule would have cut short-staffed days from 9 to 6.
 
-These are results on past data, not a promise. The next step is to try the targets in a real program and see what happens.
+These are results on past data, not a promise. The next step is to try the targets in a real program and see what happens, which is what the [test plan](docs/phase7_test_plan.md) sets up.
 
 ## What I found
 
@@ -56,6 +57,7 @@ About 87% of people who sign up come. But 10 of the 13 short-staffed days were t
 | 4. Back-test | Tried the median plus buffers from 0% to 15%. Each year was tested using only earlier years: 2024 from 2023, and 2025 from 2023 and 2024. | [Phase 4 back-test](docs/phase4_backtest.md), [back-test results](data/clean/) |
 | 5. Dashboard | Exported five small tables from SQL and built a one-page Tableau dashboard, one row per question. | [dashboard tables](data/tableau/), [Tableau guide](docs/phase5_tableau_guide.md) |
 | 6. Memo | Wrote up the targets and the waste vs. shortage trade-off for the program lead. | [Decision memo](docs/decision_memo.md) |
+| 7. Test plan | Planned a one-program trial of the targets: what to record each night (including people turned away when food runs out), what counts as success, when to switch to 8%, and a SQL file that compares the trial with the back-test. | [Phase 7 test plan](docs/phase7_test_plan.md), [nightly log](data/trial/nightly_log_template.csv) |
 
 ## Choices I made and why
 
@@ -84,6 +86,7 @@ data/
   raw/                  Original meal records and weather downloads
   clean/                Cleaned data, cleaning log, back-test results
   tableau/              Five dashboard tables (dash_*.csv)
+  trial/                Nightly log template for the real-world trial
 
 scripts/                Python: first look, cleaning, weather download
 sql/                    DuckDB: model, analysis, back-test, exports
@@ -127,6 +130,14 @@ duckdb meals.duckdb < sql/10_tableau_exports.sql
 
 SQL files 01, 03, 05, 06 and 07 are exploration queries. Run them after 04 to see the numbers behind the Phase 2 and Phase 3 findings.
 
+### 5. After a real trial (optional)
+
+Save the filled-in log as data/trial/nightly_log.csv, then run:
+
+```bash
+duckdb meals.duckdb < sql/11_trial_review.sql
+```
+
 ## Tools
 
 - **Python (pandas):** checking, cleaning and downloading the data
@@ -142,4 +153,4 @@ SQL files 01, 03, 05, 06 and 07 are exploration queries. Run them after 04 to se
 - The volunteer test assumes the same share of people show up when more sign up.
 - The rules have only been tested on past records, not in a live program yet.
 
-**Next step:** try the targets for one program, count the people turned away when food runs out, and compare the real waste and staffing with the back-test.
+**Next step:** try the targets for one program, count the people turned away when food runs out, and compare the real waste and staffing with the back-test. The [test plan](docs/phase7_test_plan.md) covers how.
