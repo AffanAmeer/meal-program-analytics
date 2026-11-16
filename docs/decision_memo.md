@@ -16,7 +16,7 @@ Cook a set amount for each kind of day:
 
 Each target is the median number of meals served on past ordinary days of that kind, plus the buffer, rounded to the nearest 10. "Ordinary" leaves out days the food ran out and the unexplained slow days.
 
-I tested this on 59 past days in 2024 and 2025. With the 5% buffer, waste would have dropped by 34%, and the kitchen wouldn't have run short any more often than it did. The volunteer rule would have cut short-staffed days from 9 to 6.
+I tested this on 59 past days in 2024 and 2025. With the 5% buffer, waste would have dropped by about a third (34%, and at least 29% in the worst case), with 5 confirmed short days, the same number as the kitchen's actual stockouts. The volunteer rule would have cut short-staffed days from 9 to 6.
 
 My suggestion is to start with 5% and try it for one program. If the team decides that never running short is worth some extra waste, switch to 8%.
 
