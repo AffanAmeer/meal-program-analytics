@@ -162,7 +162,7 @@ duckdb meals.duckdb < sql/11_trial_review.sql
 
 ## Limitations and next steps
 
-- It's only 88 program days over three years, and each group has 12 to 34 days, so the targets are estimates, not exact numbers. The back-test's 34% has a likely range of about 20% to 50%.
+- It's only 88 program days over three years, and each group has 12 to 33 days, so the targets are estimates, not exact numbers. The back-test's 34% has a likely range of about 20% to 50%.
 - The segments, the slow-day rule and the 5% buffer were chosen after looking at all three years. The [robustness checks](docs/phase4b_robustness.md) show this didn't change the answer, but a live trial is the real test.
 - On days the food ran out, nobody counted the people turned away, so real demand on those days is unknown.
 - The slow days can't be predicted from this data, so their waste stays no matter which rule is used.
