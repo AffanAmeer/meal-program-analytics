@@ -1,0 +1,13 @@
+check,value,note
+waste_chef,6698.0,kitchen's actual waste on the 54 non-stockout test days
+waste_plan_5pct,4413.0,"median + 5%, same days"
+waste_change_pct,-34.1,headline result
+short_days_plan_5pct,5.0,confirmed short days
+unknown_days_plan_5pct,5.0,"kitchen ran out; plan cooked more, outcome unknown"
+waste_change_pct_worst_case,-28.7,if every extra meal cooked on the kitchen's stockout days had been thrown out
+nested_buffer_picked_on_2024,5.0,smallest-waste buffer with no more short days than the kitchen in 2024
+nested_waste_change_pct_2025,-32.8,"that buffer applied to 2025, which played no part in choosing it"
+keep_low_turnout_waste_change_pct,-42.4,median + 5% if slow days are not left out
+keep_low_turnout_short_days,9.0,shows why the slow days are left out of the median
+bootstrap_waste_change_pct_p2_5,-48.1,"95% interval, low end (bigger cut)"
+bootstrap_waste_change_pct_p97_5,-20.6,"95% interval, high end (smaller cut)"

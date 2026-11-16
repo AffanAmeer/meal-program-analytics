@@ -8,7 +8,7 @@
 
 ## Overview
 
-A community meal program serves 800 to 1,400 dinners a night for about a month each year, and volunteers run it. Over three years, about 1 in 10 meals ended up in the bin. Even so, the kitchen ran out of food on 7 nights.
+A community meal program cooks between 670 and 1,500 dinners a night (about 1,000 on average) for about a month each year, and volunteers run it. Over three years, about 1 in 10 meals ended up in the bin. Even so, the kitchen ran out of food on 7 nights.
 
 I used the program's daily records to answer three questions: how much food to cook, how much extra to keep as a buffer, and how many volunteers to sign up. Then I tested the answers on past years, using only the data the kitchen would have had at the time.
 
@@ -24,7 +24,9 @@ I used the program's daily records to answer three questions: how much food to c
 
 ### What the back-test showed
 
-Over 59 days in 2024 and 2025, the 5% rule would have cut waste by 34%, from 6,698 meals to 4,413. It would have run short on 5 days, the same number of times the kitchen actually ran out, and each of those shortfalls was small (10 to 52 meals).
+Over 59 days in 2024 and 2025, the 5% rule would have cut waste by 34%, from 6,698 meals to 4,413. It would have run short on 5 days for certain, the same number of times the kitchen actually ran out, and each of those shortfalls was small (10 to 52 meals). On the kitchen's 5 stockout days the rule would have cooked 20 to 120 more meals, but whether that was enough can't be known.
+
+**How sure is the 34%?** I rebuilt the back-test a second way and stress-tested it ([Phase 4b](docs/phase4b_robustness.md)). Picking the buffer on 2024 alone and testing on 2025 still gives 5% and a 33% cut. Counting the worst case for the stockout days gives 29%. With only 54 scored days, a bootstrap puts the likely range at about 20% to 50%.
 
 The volunteer rule would have cut short-staffed days from 9 to 6.
 
@@ -55,6 +57,7 @@ About 87% of people who sign up come. But 10 of the 13 short-staffed days were t
 | 2. Data model | Built a DuckDB database with a daily table, a calendar table and a weather table from Environment Canada. Checked the "rainy" notes against real rainfall. | [sql](sql/), [rainy label test](docs/phase2_rainy_label_test.md) |
 | 3. Analysis | Compared days only within their own group of four, so a quiet Tuesday is never judged against a busy Saturday. Looked at waste, shortages, trends, weather and volunteers. | [sql](sql/), [Phase 3 findings](docs/phase3_findings.md) |
 | 4. Back-test | Tried the median plus buffers from 0% to 15%. Each year was tested using only earlier years: 2024 from 2023, and 2025 from 2023 and 2024. | [Phase 4 back-test](docs/phase4_backtest.md), [back-test results](data/clean/) |
+| 4b. Robustness | Rebuilt the back-test in pandas to check the SQL, then tested how much the result depends on choices made after seeing the data. | [Phase 4b robustness](docs/phase4b_robustness.md), [script](scripts/04_robustness.py) |
 | 5. Dashboard | Exported five small tables from SQL and built a one-page Tableau dashboard, one row per question. | [dashboard tables](data/tableau/), [Tableau guide](docs/phase5_tableau_guide.md) |
 | 6. Memo | Wrote up the targets and the waste vs. shortage trade-off for the program lead. | [Decision memo](docs/decision_memo.md) |
 | 7. Test plan | Planned a one-program trial of the targets: what to record each night (including people turned away when food runs out), what counts as success, when to switch to 8%, and a SQL file that compares the trial with the back-test. | [Phase 7 test plan](docs/phase7_test_plan.md), [nightly log](data/trial/nightly_log_template.csv) |
@@ -88,14 +91,25 @@ data/
   tableau/              Five dashboard tables (dash_*.csv)
   trial/                Nightly log template for the real-world trial
 
-scripts/                Python: first look, cleaning, weather download
+scripts/                Python: first look, cleaning, weather download, robustness checks, run_all
 sql/                    DuckDB: model, analysis, back-test, exports
+tests/                  Checks that every headline number matches the raw data
 docs/                   Findings for each phase, Tableau guide, decision memo
 ```
 
 ## How to reproduce
 
-You need Python 3 with pandas, and the DuckDB command line tool. Run everything from the project folder.
+You need Python 3. Install what the project uses, then rebuild everything with one command:
+
+```bash
+pip install -r requirements.txt
+python3 scripts/run_all.py      # cleaning, model, back-tests, dashboard tables, robustness checks
+python3 -m pytest tests/        # recompute every headline number from the raw file
+```
+
+A GitHub Action runs the same two commands on every push and fails if a rebuilt output or a headline number changes.
+
+To run the steps one at a time instead, you need the DuckDB command line tool. Run everything from the project folder.
 
 ### 1. Prepare the data
 
@@ -142,12 +156,14 @@ duckdb meals.duckdb < sql/11_trial_review.sql
 
 - **Python (pandas):** checking, cleaning and downloading the data
 - **SQL (DuckDB):** the data model, the analysis, the back-tests and the dashboard exports
+- **pytest and GitHub Actions:** automatic checks that the published numbers match the data
 - **Tableau Public:** the one-page dashboard
 - **Git and GitHub:** version control for the code, outputs and write-ups
 
 ## Limitations and next steps
 
-- It's only 88 program days over three years, and each group has 12 to 34 days, so the targets are estimates, not exact numbers.
+- It's only 88 program days over three years, and each group has 12 to 33 days, so the targets are estimates, not exact numbers. The back-test's 34% has a likely range of about 20% to 50%.
+- The segments, the slow-day rule and the 5% buffer were chosen after looking at all three years. The [robustness checks](docs/phase4b_robustness.md) show this didn't change the answer, but a live trial is the real test.
 - On days the food ran out, nobody counted the people turned away, so real demand on those days is unknown.
 - The slow days can't be predicted from this data, so their waste stays no matter which rule is used.
 - The volunteer test assumes the same share of people show up when more sign up.
