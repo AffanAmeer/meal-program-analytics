@@ -5,7 +5,7 @@
 
 ## How we compared days
 
-Demand in this data really comes down to two things we found in Phase 1: what kind of day it is (Mon-Thu vs Fri-Sun), and whether it's in the last 10 program days. Put those together and you get 4 groups, with 12 to 34 days in each. So every number below is compared inside its own group, not against some overall average that would mix busy weekends with quiet weekdays.
+Demand in this data really comes down to two things we found in Phase 1: what kind of day it is (Mon-Thu vs Fri-Sun), and whether it's in the last 10 program days. Put those together and you get 4 groups, with 12 to 33 days in each. So every number below is compared inside its own group, not against some overall average that would mix busy weekends with quiet weekdays.
 
 Two groups of days need handling separately. First, the 7 stockout days. On those days served equals made, so we only know demand was *at least* that high — the real demand is censored. We leave them out of the demand averages and look at them on their own. Second, the 12 "low-turnout note" days. The chef labelled these "rainy", but Phase 2 showed that label doesn't actually line up with real rain, so for now we're just treating them as surprise slow days, cause unknown.
 
@@ -91,7 +91,7 @@ As a back-check, if sign-ups were fixed at a set number, and each day had its re
 
 ## Caveats
 
-- 88 days total, and groups of 12 to 34 days. Percentiles from 12 days are rough, so don't treat them as precise.
+- 88 days total, and groups of 12 to 33 days. Percentiles from 12 days are rough, so don't treat them as precise.
 - Stockout demand is a floor, so true Mon-Thu and Fri-Sun regular demand may be slightly higher than what's shown here.
 - The volunteer back-check assumes the show-up rate wouldn't change if you changed the number of sign-ups.
 - The low-turnout days can't be predicted from this data. That's the waste this plan can't remove.
