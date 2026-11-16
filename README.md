@@ -8,7 +8,7 @@
 
 ## Overview
 
-A community meal program serves 800 to 1,400 dinners a night for about a month each year, and volunteers run it. Over three years, about 1 in 10 meals ended up in the bin. Even so, the kitchen ran out of food on 7 nights.
+A community meal program cooks between 670 and 1,500 dinners a night (about 1,000 on average) for about a month each year, and volunteers run it. Over three years, about 1 in 10 meals ended up in the bin. Even so, the kitchen ran out of food on 7 nights.
 
 I used the program's daily records to answer three questions: how much food to cook, how much extra to keep as a buffer, and how many volunteers to sign up. Then I tested the answers on past years, using only the data the kitchen would have had at the time.
 
